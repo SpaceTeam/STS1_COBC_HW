@@ -1,0 +1,492 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F411RET6TR:STM32F411RET6TR IC?
+U 1 1 61274132
+P 4800 3050
+F 0 "IC?" H 5850 2450 50  0000 L CNN
+F 1 "STM32F411RET6TR" H 5550 2350 50  0000 L CNN
+F 2 "QFP50P1200X1200X160-64N" H 6750 3550 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32f411re.pdf" H 6750 3450 50  0001 L CNN
+F 4 "ARM Microcontrollers - MCU High-performance access line, ARM Cortex-M4 core with DSP and FPU, 512 Kbytes Flash, 100 MHz CPU, ART Accelerator" H 6750 3350 50  0001 L CNN "Description"
+F 5 "1.6" H 6750 3250 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 6750 3150 50  0001 L CNN "Manufacturer_Name"
+F 7 "STM32F411RET6TR" H 6750 3050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "511-STM32F411RET6TR" H 6750 2950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F411RET6TR?qs=BA62vJVifGpaf6czDatkOw%3D%3D" H 6750 2850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "STM32F411RET6TR" H 6750 2750 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/stm32f411ret6tr/stmicroelectronics" H 6750 2650 50  0001 L CNN "Arrow Price/Stock"
+	1    4800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61279145
+P 4550 3750
+F 0 "J?" V 4612 3794 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 4703 3794 50  0000 L CNN
+F 2 "" H 4550 3750 50  0001 C CNN
+F 3 "~" H 4550 3750 50  0001 C CNN
+	1    4550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61279C9E
+P 4550 4250
+F 0 "J?" V 4704 4162 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 4613 4162 50  0000 R CNN
+F 2 "" H 4550 4250 50  0001 C CNN
+F 3 "~" H 4550 4250 50  0001 C CNN
+	1    4550 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 3950 4550 3950
+Wire Wire Line
+	4800 4050 4550 4050
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6127B0FD
+P 5300 5500
+F 0 "J?" H 5408 5681 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 5408 5590 50  0000 C CNN
+F 2 "" H 5300 5500 50  0001 C CNN
+F 3 "~" H 5300 5500 50  0001 C CNN
+	1    5300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6127C347
+P 5400 5650
+F 0 "J?" H 5508 5831 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 5508 5740 50  0000 C CNN
+F 2 "" H 5400 5650 50  0001 C CNN
+F 3 "~" H 5400 5650 50  0001 C CNN
+	1    5400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6127C750
+P 5900 5550
+F 0 "J?" H 5872 5482 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 5872 5573 50  0000 R CNN
+F 2 "" H 5900 5550 50  0001 C CNN
+F 3 "~" H 5900 5550 50  0001 C CNN
+	1    5900 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 5250 5500 5500
+Wire Wire Line
+	5600 5250 5600 5650
+Wire Wire Line
+	5700 5250 5700 5550
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6127DD1F
+P 7200 3850
+F 0 "J?" V 7262 3894 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 7353 3894 50  0000 L CNN
+F 2 "" H 7200 3850 50  0001 C CNN
+F 3 "~" H 7200 3850 50  0001 C CNN
+	1    7200 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 4050 7200 4050
+$Comp
+L Device:LED D?
+U 1 1 6127EA85
+P 4250 3400
+F 0 "D?" V 4197 3480 50  0000 L CNN
+F 1 "LED" V 4288 3480 50  0000 L CNN
+F 2 "" H 4250 3400 50  0001 C CNN
+F 3 "~" H 4250 3400 50  0001 C CNN
+	1    4250 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6127FD58
+P 3950 3400
+F 0 "D?" V 3897 3480 50  0000 L CNN
+F 1 "LED" V 3988 3480 50  0000 L CNN
+F 2 "" H 3950 3400 50  0001 C CNN
+F 3 "~" H 3950 3400 50  0001 C CNN
+	1    3950 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 3250 3950 3050
+Wire Wire Line
+	3950 3050 4100 3050
+Wire Wire Line
+	4250 3050 4250 3250
+$Comp
+L power:Earth #PWR?
+U 1 1 61280D0E
+P 4100 2900
+F 0 "#PWR?" H 4100 2650 50  0001 C CNN
+F 1 "Earth" H 4100 2750 50  0001 C CNN
+F 2 "" H 4100 2900 50  0001 C CNN
+F 3 "~" H 4100 2900 50  0001 C CNN
+	1    4100 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3050 4100 2900
+Connection ~ 4100 3050
+Wire Wire Line
+	4100 3050 4250 3050
+$Comp
+L Device:R R?
+U 1 1 612819B6
+P 3950 3700
+F 0 "R?" H 4020 3746 50  0000 L CNN
+F 1 "52.5" H 4020 3655 50  0000 L CNN
+F 2 "" V 3880 3700 50  0001 C CNN
+F 3 "~" H 3950 3700 50  0001 C CNN
+	1    3950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61282109
+P 4250 3700
+F 0 "R?" H 4320 3746 50  0000 L CNN
+F 1 "52.5" H 4320 3655 50  0000 L CNN
+F 2 "" V 4180 3700 50  0001 C CNN
+F 3 "~" H 4250 3700 50  0001 C CNN
+	1    4250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3850 4250 3950
+Wire Wire Line
+	4250 3950 4550 3950
+Connection ~ 4550 3950
+Wire Wire Line
+	3950 3850 3950 4050
+Wire Wire Line
+	3950 4050 4550 4050
+Connection ~ 4550 4050
+$Comp
+L Device:R R?
+U 1 1 61284476
+P 7450 3750
+F 0 "R?" H 7520 3796 50  0000 L CNN
+F 1 "52.5" H 7520 3705 50  0000 L CNN
+F 2 "" V 7380 3750 50  0001 C CNN
+F 3 "~" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61284A97
+P 7450 3450
+F 0 "D?" V 7397 3530 50  0000 L CNN
+F 1 "LED" V 7488 3530 50  0000 L CNN
+F 2 "" H 7450 3450 50  0001 C CNN
+F 3 "~" H 7450 3450 50  0001 C CNN
+	1    7450 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 4050 7450 4050
+Wire Wire Line
+	7450 4050 7450 3900
+Connection ~ 7200 4050
+$Comp
+L Device:R R?
+U 1 1 61285D36
+P 5250 5800
+F 0 "R?" V 5043 5800 50  0000 C CNN
+F 1 "52.5" V 5134 5800 50  0000 C CNN
+F 2 "" V 5180 5800 50  0001 C CNN
+F 3 "~" H 5250 5800 50  0001 C CNN
+	1    5250 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6128651C
+P 5250 5950
+F 0 "R?" V 5043 5950 50  0000 C CNN
+F 1 "52.5" V 5134 5950 50  0000 C CNN
+F 2 "" V 5180 5950 50  0001 C CNN
+F 3 "~" H 5250 5950 50  0001 C CNN
+	1    5250 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 612866F8
+P 5250 6100
+F 0 "R?" V 5043 6100 50  0000 C CNN
+F 1 "52.5" V 5134 6100 50  0000 C CNN
+F 2 "" V 5180 6100 50  0001 C CNN
+F 3 "~" H 5250 6100 50  0001 C CNN
+	1    5250 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6128692D
+P 4950 5800
+F 0 "D?" H 4943 6017 50  0000 C CNN
+F 1 "LED" H 4943 5926 50  0000 C CNN
+F 2 "" H 4950 5800 50  0001 C CNN
+F 3 "~" H 4950 5800 50  0001 C CNN
+	1    4950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 612873CD
+P 4950 5950
+F 0 "D?" H 4943 6167 50  0000 C CNN
+F 1 "LED" H 4943 6076 50  0000 C CNN
+F 2 "" H 4950 5950 50  0001 C CNN
+F 3 "~" H 4950 5950 50  0001 C CNN
+	1    4950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 612876DD
+P 4950 6100
+F 0 "D?" H 4943 6317 50  0000 C CNN
+F 1 "LED" H 4943 6226 50  0000 C CNN
+F 2 "" H 4950 6100 50  0001 C CNN
+F 3 "~" H 4950 6100 50  0001 C CNN
+	1    4950 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 61287A2C
+P 4500 5950
+F 0 "#PWR?" H 4500 5700 50  0001 C CNN
+F 1 "Earth" H 4500 5800 50  0001 C CNN
+F 2 "" H 4500 5950 50  0001 C CNN
+F 3 "~" H 4500 5950 50  0001 C CNN
+	1    4500 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 5800 4650 5800
+Wire Wire Line
+	4650 5800 4650 5950
+Wire Wire Line
+	4650 6100 4800 6100
+Wire Wire Line
+	4800 5950 4650 5950
+Connection ~ 4650 5950
+Wire Wire Line
+	4650 5950 4650 6100
+Wire Wire Line
+	4500 5950 4650 5950
+Wire Wire Line
+	5400 5800 5500 5800
+Wire Wire Line
+	5500 5800 5500 5500
+Connection ~ 5500 5500
+Wire Wire Line
+	5400 5950 5600 5950
+Wire Wire Line
+	5600 5950 5600 5650
+Connection ~ 5600 5650
+Wire Wire Line
+	5400 6100 5700 6100
+Wire Wire Line
+	5700 6100 5700 5550
+Connection ~ 5700 5550
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6128ADBD
+P 7000 3050
+F 0 "J?" V 7062 3094 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 7153 3094 50  0000 L CNN
+F 2 "" H 7000 3050 50  0001 C CNN
+F 3 "~" H 7000 3050 50  0001 C CNN
+	1    7000 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6128B510
+P 6800 2250
+F 0 "J?" H 6772 2182 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6772 2273 50  0000 R CNN
+F 2 "" H 6800 2250 50  0001 C CNN
+F 3 "~" H 6800 2250 50  0001 C CNN
+	1    6800 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 2350 6600 2250
+$Comp
+L Device:R R?
+U 1 1 6128DC48
+P 6600 2000
+F 0 "R?" H 6670 2046 50  0000 L CNN
+F 1 "52.5" H 6670 1955 50  0000 L CNN
+F 2 "" V 6530 2000 50  0001 C CNN
+F 3 "~" H 6600 2000 50  0001 C CNN
+	1    6600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6128E4A7
+P 6600 1700
+F 0 "D?" V 6547 1780 50  0000 L CNN
+F 1 "LED" V 6638 1780 50  0000 L CNN
+F 2 "" H 6600 1700 50  0001 C CNN
+F 3 "~" H 6600 1700 50  0001 C CNN
+	1    6600 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6128EDCE
+P 6600 1550
+F 0 "#PWR?" H 6600 1300 50  0001 C CNN
+F 1 "Earth" H 6600 1400 50  0001 C CNN
+F 2 "" H 6600 1550 50  0001 C CNN
+F 3 "~" H 6600 1550 50  0001 C CNN
+	1    6600 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 2250 6600 2150
+Connection ~ 6600 2250
+Wire Wire Line
+	6900 3250 7000 3250
+$Comp
+L power:Earth #PWR?
+U 1 1 612909F8
+P 7450 3300
+F 0 "#PWR?" H 7450 3050 50  0001 C CNN
+F 1 "Earth" H 7450 3150 50  0001 C CNN
+F 2 "" H 7450 3300 50  0001 C CNN
+F 3 "~" H 7450 3300 50  0001 C CNN
+	1    7450 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61290EF9
+P 7150 3100
+F 0 "R?" H 7220 3146 50  0000 L CNN
+F 1 "52.5" H 7220 3055 50  0000 L CNN
+F 2 "" V 7080 3100 50  0001 C CNN
+F 3 "~" H 7150 3100 50  0001 C CNN
+	1    7150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3250 7150 3250
+Connection ~ 7000 3250
+$Comp
+L Device:LED D?
+U 1 1 61291BAB
+P 7150 2800
+F 0 "D?" V 7097 2880 50  0000 L CNN
+F 1 "LED" V 7188 2880 50  0000 L CNN
+F 2 "" H 7150 2800 50  0001 C CNN
+F 3 "~" H 7150 2800 50  0001 C CNN
+	1    7150 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 61292252
+P 7150 2650
+F 0 "#PWR?" H 7150 2400 50  0001 C CNN
+F 1 "Earth" H 7150 2500 50  0001 C CNN
+F 2 "" H 7150 2650 50  0001 C CNN
+F 3 "~" H 7150 2650 50  0001 C CNN
+	1    7150 2650
+	-1   0    0    1   
+$EndComp
+Text Notes 8750 1650 0    50   ~ 0
+PA5 SPI1 SCLK\nPA6 SPI1 MISO\nPA7 SPI1 MOSI\nPA13 SWDIO\nPA14 SWCLK\nPC2 SPI2 MISO\nPC3 SPI2 MOSI\nPC7 SPI2 SCLK\n\n
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 6129EFCF
+P 3450 1100
+F 0 "J?" V 3388 912 50  0000 R CNN
+F 1 "Conn_01x02_Female" V 3297 912 50  0000 R CNN
+F 2 "" H 3450 1100 50  0001 C CNN
+F 3 "~" H 3450 1100 50  0001 C CNN
+	1    3450 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 6129F67B
+P 4850 1100
+F 0 "J?" V 4788 912 50  0000 R CNN
+F 1 "Conn_01x02_Female" V 4697 912 50  0000 R CNN
+F 2 "" H 4850 1100 50  0001 C CNN
+F 3 "~" H 4850 1100 50  0001 C CNN
+	1    4850 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 2250 6500 2250
+Wire Wire Line
+	6500 2250 6500 1900
+Wire Wire Line
+	6500 1900 3550 1900
+Wire Wire Line
+	3550 1900 3550 1300
+Wire Wire Line
+	7000 3250 7000 3350
+Wire Wire Line
+	7000 3350 7300 3350
+Wire Wire Line
+	7300 3350 7300 1300
+Wire Wire Line
+	7300 1300 4950 1300
+$Comp
+L power:Earth #PWR?
+U 1 1 612A41AD
+P 4850 1300
+F 0 "#PWR?" H 4850 1050 50  0001 C CNN
+F 1 "Earth" H 4850 1150 50  0001 C CNN
+F 2 "" H 4850 1300 50  0001 C CNN
+F 3 "~" H 4850 1300 50  0001 C CNN
+	1    4850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 612A49EE
+P 3450 1300
+F 0 "#PWR?" H 3450 1050 50  0001 C CNN
+F 1 "Earth" H 3450 1150 50  0001 C CNN
+F 2 "" H 3450 1300 50  0001 C CNN
+F 3 "~" H 3450 1300 50  0001 C CNN
+	1    3450 1300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
