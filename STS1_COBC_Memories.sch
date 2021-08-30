@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -51,4 +51,75 @@ F 11 "https://www.arrow.com/en/products/cy15b108qn-40sxi/cypress-semiconductor?r
 	1    7750 2900
 	1    0    0    -1  
 $EndComp
+Text HLabel 4300 3000 2    50   Input ~ 0
+Flash_CLK
+Text HLabel 4400 2800 2    50   Input ~ 0
+Flash_PowerSupply
+Text HLabel 4300 3100 2    50   Input ~ 0
+Flash_DataInput
+Text HLabel 2100 2900 0    50   Input ~ 0
+Flash_DataOutput
+Text HLabel 2100 2800 0    50   Input ~ 0
+Flash_CS
+Text HLabel 8750 3100 2    50   Input ~ 0
+FRAM_CLK
+Text HLabel 8750 3200 2    50   Input ~ 0
+FRAM_DataInput
+Text HLabel 7750 3000 0    50   Input ~ 0
+FRAM_DataOutput
+Text HLabel 7750 3200 0    50   Input ~ 0
+FRAM_PowerSupply
+$Comp
+L power:GND #PWR?
+U 1 1 61291A0F
+P 2100 3100
+F 0 "#PWR?" H 2100 2850 50  0001 C CNN
+F 1 "GND" V 2105 2972 50  0000 R CNN
+F 2 "" H 2100 3100 50  0001 C CNN
+F 3 "" H 2100 3100 50  0001 C CNN
+	1    2100 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6129295C
+P 8750 2900
+F 0 "#PWR?" H 8750 2650 50  0001 C CNN
+F 1 "GND" V 8755 2772 50  0000 R CNN
+F 2 "" H 8750 2900 50  0001 C CNN
+F 3 "" H 8750 2900 50  0001 C CNN
+	1    8750 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 3000 8750 2900
+Connection ~ 8750 2900
+Wire Wire Line
+	6900 3100 6900 2250
+Wire Wire Line
+	6900 2250 8750 2250
+Wire Wire Line
+	8750 2250 8750 2900
+Wire Wire Line
+	6900 3100 7750 3100
+$Comp
+L power:GND #PWR?
+U 1 1 612BEAFE
+P 7750 2900
+F 0 "#PWR?" H 7750 2650 50  0001 C CNN
+F 1 "GND" V 7755 2772 50  0000 R CNN
+F 2 "" H 7750 2900 50  0001 C CNN
+F 3 "" H 7750 2900 50  0001 C CNN
+	1    7750 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 2800 4350 2800
+Wire Wire Line
+	4350 2800 4350 2900
+Wire Wire Line
+	4350 2900 4300 2900
+Connection ~ 4350 2800
+Wire Wire Line
+	4350 2800 4400 2800
 $EndSCHEMATC

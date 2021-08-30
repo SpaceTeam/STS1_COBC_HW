@@ -1,0 +1,246 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STS1_COBC_RFM:LoRa126XF30 RF?
+U 1 1 612D3FCA
+P 3850 3450
+F 0 "RF?" H 3850 4025 50  0000 C CNN
+F 1 "LoRa1268F30" H 3850 3934 50  0000 C CNN
+F 2 "" H 3850 3900 50  0001 C CNN
+F 3 "" H 3850 3900 50  0001 C CNN
+	1    3850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L STS1_COBC_RFM:RF4463F30 RF?
+U 1 1 612D4F50
+P 8200 3600
+F 0 "RF?" H 8200 4225 50  0000 C CNN
+F 1 "RF4463F30" H 8200 4134 50  0000 C CNN
+F 2 "" H 8200 4100 50  0001 C CNN
+F 3 "" H 8200 4100 50  0001 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 2550 3100 0    50   Input ~ 0
+LoRa_VCC
+$Comp
+L power:GND #PWR?
+U 1 1 612D692F
+P 3300 3200
+F 0 "#PWR?" H 3300 2950 50  0001 C CNN
+F 1 "GND" V 3305 3072 50  0000 R CNN
+F 2 "" H 3300 3200 50  0001 C CNN
+F 3 "" H 3300 3200 50  0001 C CNN
+	1    3300 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612D703E
+P 3300 3800
+F 0 "#PWR?" H 3300 3550 50  0001 C CNN
+F 1 "GND" V 3305 3672 50  0000 R CNN
+F 2 "" H 3300 3800 50  0001 C CNN
+F 3 "" H 3300 3800 50  0001 C CNN
+	1    3300 3800
+	0    1    1    0   
+$EndComp
+Text HLabel 4400 3200 2    50   Input ~ 0
+LoRa_SMA_GND
+Text Notes 5900 2800 2    50   ~ 0
+ In LAYOUT, the GND (pin 15) next to the ANT (pin 16) pin cannot be directly connected to the \nground of the system. It can be connected to the GND of the external SMA socket
+Wire Wire Line
+	2550 3100 2650 3100
+$Comp
+L Device:C C?
+U 1 1 612D80B3
+P 2900 3350
+F 0 "C?" H 3015 3396 50  0000 L CNN
+F 1 "47u" H 3015 3305 50  0000 L CNN
+F 2 "" H 2938 3200 50  0001 C CNN
+F 3 "~" H 2900 3350 50  0001 C CNN
+	1    2900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 612D8225
+P 2650 3350
+F 0 "C?" H 2450 3450 50  0000 L CNN
+F 1 "100n" H 2500 3350 50  0000 L CNN
+F 2 "" H 2688 3200 50  0001 C CNN
+F 3 "~" H 2650 3350 50  0001 C CNN
+	1    2650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612D8F9E
+P 2650 3500
+F 0 "#PWR?" H 2650 3250 50  0001 C CNN
+F 1 "GND" H 2655 3327 50  0000 C CNN
+F 2 "" H 2650 3500 50  0001 C CNN
+F 3 "" H 2650 3500 50  0001 C CNN
+	1    2650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612D9513
+P 2900 3500
+F 0 "#PWR?" H 2900 3250 50  0001 C CNN
+F 1 "GND" H 2905 3327 50  0000 C CNN
+F 2 "" H 2900 3500 50  0001 C CNN
+F 3 "" H 2900 3500 50  0001 C CNN
+	1    2900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3200 2650 3100
+Connection ~ 2650 3100
+Wire Wire Line
+	2650 3100 2900 3100
+Wire Wire Line
+	2900 3200 2900 3100
+Connection ~ 2900 3100
+Wire Wire Line
+	2900 3100 3300 3100
+$Comp
+L power:GND #PWR?
+U 1 1 612D987F
+P 3300 3500
+F 0 "#PWR?" H 3300 3250 50  0001 C CNN
+F 1 "GND" V 3305 3372 50  0000 R CNN
+F 2 "" H 3300 3500 50  0001 C CNN
+F 3 "" H 3300 3500 50  0001 C CNN
+	1    3300 3500
+	0    1    1    0   
+$EndComp
+Text HLabel 4400 3800 2    50   Input ~ 0
+LoRa_SPI_CLK
+Text HLabel 4400 3700 2    50   Input ~ 0
+LoRa_MISO
+Text HLabel 4400 3600 2    50   Input ~ 0
+LoRa_MOSI
+Text HLabel 3300 3700 0    50   Input ~ 0
+LoRa_NSS
+Text Notes 3600 2550 0    50   ~ 0
+Busy pin und DIO pins ?\n
+Text HLabel 6900 3200 0    50   Input ~ 0
+RF4463_VCC
+$Comp
+L power:GND #PWR?
+U 1 1 612DA405
+P 7650 3300
+F 0 "#PWR?" H 7650 3050 50  0001 C CNN
+F 1 "GND" V 7655 3172 50  0000 R CNN
+F 2 "" H 7650 3300 50  0001 C CNN
+F 3 "" H 7650 3300 50  0001 C CNN
+	1    7650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612DA9D3
+P 7650 3600
+F 0 "#PWR?" H 7650 3350 50  0001 C CNN
+F 1 "GND" V 7655 3472 50  0000 R CNN
+F 2 "" H 7650 3600 50  0001 C CNN
+F 3 "" H 7650 3600 50  0001 C CNN
+	1    7650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612DAECB
+P 7650 3900
+F 0 "#PWR?" H 7650 3650 50  0001 C CNN
+F 1 "GND" V 7655 3772 50  0000 R CNN
+F 2 "" H 7650 3900 50  0001 C CNN
+F 3 "" H 7650 3900 50  0001 C CNN
+	1    7650 3900
+	0    1    1    0   
+$EndComp
+Text HLabel 8750 3300 2    50   Input ~ 0
+RF4463_ANT_GND
+Text HLabel 8750 3200 2    50   Input ~ 0
+RF4463_ANT
+$Comp
+L Device:C C?
+U 1 1 612DB4E1
+P 7250 3350
+F 0 "C?" H 7200 3350 50  0000 L CNN
+F 1 "47u" H 7200 3250 50  0000 L CNN
+F 2 "" H 7288 3200 50  0001 C CNN
+F 3 "~" H 7250 3350 50  0001 C CNN
+	1    7250 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7250 3200
+Wire Wire Line
+	7250 3200 7650 3200
+$Comp
+L Device:C C?
+U 1 1 612DBAA7
+P 7000 3350
+F 0 "C?" H 6900 3350 50  0000 L CNN
+F 1 "100n" H 6950 3250 50  0000 L CNN
+F 2 "" H 7038 3200 50  0001 C CNN
+F 3 "~" H 7000 3350 50  0001 C CNN
+	1    7000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612DBF97
+P 7000 3500
+F 0 "#PWR?" H 7000 3250 50  0001 C CNN
+F 1 "GND" H 7005 3327 50  0000 C CNN
+F 2 "" H 7000 3500 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612DC2BC
+P 7250 3500
+F 0 "#PWR?" H 7250 3250 50  0001 C CNN
+F 1 "GND" H 7255 3327 50  0000 C CNN
+F 2 "" H 7250 3500 50  0001 C CNN
+F 3 "" H 7250 3500 50  0001 C CNN
+	1    7250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3200 7000 3200
+Connection ~ 7000 3200
+Wire Wire Line
+	7000 3200 7250 3200
+Text HLabel 7650 3800 0    50   Input ~ 0
+RF4463_nSEL
+Text HLabel 7650 3700 0    50   Input ~ 0
+RF4463_nIRQ
+Text HLabel 8750 3800 2    50   Input ~ 0
+RF4463_SDI
+Text HLabel 8750 3700 2    50   Input ~ 0
+RF4463_SDO
+Text HLabel 8750 3900 2    50   Input ~ 0
+RF4463_SPI_CLK
+Text HLabel 4400 3100 2    50   Input ~ 0
+LoRa_ANT
+$EndSCHEMATC
