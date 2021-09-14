@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,184 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L power:GND #PWR0142
+U 1 1 613793D0
+P 5750 3850
+F 0 "#PWR0142" H 5750 3600 50  0001 C CNN
+F 1 "GND" V 5755 3722 50  0000 R CNN
+F 2 "" H 5750 3850 50  0001 C CNN
+F 3 "" H 5750 3850 50  0001 C CNN
+	1    5750 3850
+	0    1    1    0   
+$EndComp
+Text HLabel 7550 3850 2    50   Input ~ 0
+Watchdog_VCC
+$Comp
+L Connector:Conn_01x01_Male J25
+U 1 1 61379EB9
+P 7450 4050
+F 0 "J25" V 7604 3962 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 7513 3962 50  0000 R CNN
+F 2 "" H 7450 4050 50  0001 C CNN
+F 3 "~" H 7450 4050 50  0001 C CNN
+	1    7450 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3850 7550 3850
+Connection ~ 7450 3850
+Text HLabel 7250 3750 2    50   Input ~ 0
+Watchdog_DI
+Text Notes 7500 3750 0    50   ~ 0
+WDI needs to be toggled during WTP if not WDO is asserted
+$Comp
+L Device:R R4
+U 1 1 6137B272
+P 5600 3600
+F 0 "R4" H 5530 3554 50  0000 R CNN
+F 1 "4k7" V 5600 3650 50  0000 R CNN
+F 2 "" V 5530 3600 50  0001 C CNN
+F 3 "~" H 5600 3600 50  0001 C CNN
+	1    5600 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:STWD100PYW83F IC2
+U 1 1 613781EA
+P 5750 3750
+F 0 "IC2" H 6300 4015 50  0000 C CNN
+F 1 "STWD100PYW83F" H 6300 3924 50  0000 C CNN
+F 2 "SamacSys_Parts:SOT65P210X110-5N" H 6700 3850 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/8291513P" H 6700 3750 50  0001 L CNN
+F 4 "STMicroelectronics STWD100PYW83F, Watchdog Timer, 2.7  5.5 V, 5-Pin SOT-323" H 6700 3650 50  0001 L CNN "Description"
+F 5 "1.1" H 6700 3550 50  0001 L CNN "Height"
+F 6 "8291513P" H 6700 3450 50  0001 L CNN "RS Part Number"
+F 7 "http://uk.rs-online.com/web/p/products/8291513P" H 6700 3350 50  0001 L CNN "RS Price/Stock"
+F 8 "STMicroelectronics" H 6700 3250 50  0001 L CNN "Manufacturer_Name"
+F 9 "STWD100PYW83F" H 6700 3150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3750 5600 3750
+Text HLabel 5600 3250 1    50   Input ~ 0
+Watchdog_DO(RST)
+Wire Wire Line
+	5600 3250 5600 3450
+Wire Wire Line
+	6850 3750 7250 3750
+$Comp
+L power:GND #PWR0143
+U 1 1 6137CC6D
+P 5750 3950
+F 0 "#PWR0143" H 5750 3700 50  0001 C CNN
+F 1 "GND" V 5755 3822 50  0000 R CNN
+F 2 "" H 5750 3950 50  0001 C CNN
+F 3 "" H 5750 3950 50  0001 C CNN
+	1    5750 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J24
+U 1 1 6137D2C0
+P 6850 3550
+F 0 "J24" V 6912 3594 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 7003 3594 50  0000 L CNN
+F 2 "" H 6850 3550 50  0001 C CNN
+F 3 "~" H 6850 3550 50  0001 C CNN
+	1    6850 3550
+	0    1    1    0   
+$EndComp
+Connection ~ 6850 3750
+$Comp
+L Device:R R5
+U 1 1 6137DBF1
+P 7300 4000
+F 0 "R5" H 7230 3954 50  0000 R CNN
+F 1 "100" V 7300 4050 50  0000 R CNN
+F 2 "" V 7230 4000 50  0001 C CNN
+F 3 "~" H 7300 4000 50  0001 C CNN
+	1    7300 4000
+	-1   0    0    1   
+$EndComp
+Connection ~ 7300 3850
+Wire Wire Line
+	7300 3850 7450 3850
+$Comp
+L Device:LED D3
+U 1 1 6137E51C
+P 7300 4300
+F 0 "D3" V 7339 4182 50  0000 R CNN
+F 1 "LED" V 7248 4182 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7300 4300 50  0001 C CNN
+F 3 "~" H 7300 4300 50  0001 C CNN
+	1    7300 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0144
+U 1 1 6137F0DC
+P 7300 4450
+F 0 "#PWR0144" H 7300 4200 50  0001 C CNN
+F 1 "GND" H 7305 4277 50  0000 C CNN
+F 2 "" H 7300 4450 50  0001 C CNN
+F 3 "" H 7300 4450 50  0001 C CNN
+	1    7300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 6138357C
+P 6850 4350
+F 0 "C11" H 6650 4350 50  0000 L CNN
+F 1 "100n" H 6750 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6888 4200 50  0001 C CNN
+F 3 "~" H 6850 4350 50  0001 C CNN
+	1    6850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 61385110
+P 7050 4350
+F 0 "C12" H 7050 4450 50  0000 L CNN
+F 1 "47u" H 7000 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7088 4200 50  0001 C CNN
+F 3 "~" H 7050 4350 50  0001 C CNN
+	1    7050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4200 7050 3850
+Wire Wire Line
+	7050 3850 7300 3850
+Wire Wire Line
+	7050 3850 6850 3850
+Connection ~ 7050 3850
+Wire Wire Line
+	6850 3850 6850 4200
+Connection ~ 6850 3850
+$Comp
+L power:GND #PWR0145
+U 1 1 613869ED
+P 7050 4500
+F 0 "#PWR0145" H 7050 4250 50  0001 C CNN
+F 1 "GND" H 7055 4327 50  0000 C CNN
+F 2 "" H 7050 4500 50  0001 C CNN
+F 3 "" H 7050 4500 50  0001 C CNN
+	1    7050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0146
+U 1 1 61386DC8
+P 6850 4500
+F 0 "#PWR0146" H 6850 4250 50  0001 C CNN
+F 1 "GND" H 6855 4327 50  0000 C CNN
+F 2 "" H 6850 4500 50  0001 C CNN
+F 3 "" H 6850 4500 50  0001 C CNN
+	1    6850 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
