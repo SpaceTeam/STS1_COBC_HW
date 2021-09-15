@@ -274,7 +274,7 @@ U 1 1 612F969D
 P 3100 2000
 F 0 "J1" H 3128 1976 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 2650 2150 50  0000 L CNN
-F 2 "" H 3100 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3100 2000 50  0001 C CNN
 F 3 "~" H 3100 2000 50  0001 C CNN
 	1    3100 2000
 	-1   0    0    1   
