@@ -43,7 +43,7 @@ Connection ~ 7450 3850
 Text HLabel 7250 3750 2    50   Input ~ 0
 Watchdog_DI
 Text Notes 7800 3750 0    50   ~ 0
-WDI needs to be toggled during WTP if not WDO is asserted
+WDI needs to be toggled during WTP if not WDO is asserted\nDirekt zum STM hinzufügen
 $Comp
 L Device:R R4
 U 1 1 6137B272

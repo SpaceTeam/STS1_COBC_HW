@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -59,10 +59,10 @@ F 3 "" H 3300 3800 50  0001 C CNN
 	1    3300 3800
 	0    1    1    0   
 $EndComp
-Text HLabel 4400 3200 2    50   Input ~ 0
+Text HLabel 4650 3200 2    50   Input ~ 0
 LoRa_SMA_GND
-Text Notes 5900 2800 2    50   ~ 0
- In LAYOUT, the GND (pin 15) next to the ANT (pin 16) pin cannot be directly connected to the \nground of the system. It can be connected to the GND of the external SMA socket
+Text Notes 7300 2250 2    50   ~ 0
+ In LAYOUT, the GND (pin 15) next to the ANT (pin 16) pin cannot be directly connected to the \nground of the system. It can be connected to the GND of the external SMA socket\n\nEvtl LED an GPIOs hängen(OK von Peter)\n
 Wire Wire Line
 	2550 3100 2650 3100
 $Comp
@@ -122,13 +122,13 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0151
 U 1 1 612D987F
-P 3300 3500
-F 0 "#PWR0151" H 3300 3250 50  0001 C CNN
-F 1 "GND" V 3305 3372 50  0000 R CNN
-F 2 "" H 3300 3500 50  0001 C CNN
-F 3 "" H 3300 3500 50  0001 C CNN
-	1    3300 3500
-	0    1    1    0   
+P 1850 4000
+F 0 "#PWR0151" H 1850 3750 50  0001 C CNN
+F 1 "GND" V 1855 3872 50  0000 R CNN
+F 2 "" H 1850 4000 50  0001 C CNN
+F 3 "" H 1850 4000 50  0001 C CNN
+	1    1850 4000
+	1    0    0    -1  
 $EndComp
 Text HLabel 4400 3800 2    50   Input ~ 0
 LoRa_SPI_CLK
@@ -139,7 +139,7 @@ LoRa_MOSI
 Text HLabel 3300 3700 0    50   Input ~ 0
 LoRa_NSS
 Text Notes 3600 2550 0    50   ~ 0
-Busy pin und DIO pins ?\n
+Busy pin und DIO pins  (customizable digital I/O pins)\nWhen busy is high the host controller must wait to till the busy line is low to send another command\n
 Text HLabel 6900 3200 0    50   Input ~ 0
 RF4463_VCC
 $Comp
@@ -156,13 +156,13 @@ $EndComp
 $Comp
 L power:GND #PWR0153
 U 1 1 612DA9D3
-P 7650 3600
-F 0 "#PWR0153" H 7650 3350 50  0001 C CNN
-F 1 "GND" V 7655 3472 50  0000 R CNN
-F 2 "" H 7650 3600 50  0001 C CNN
-F 3 "" H 7650 3600 50  0001 C CNN
-	1    7650 3600
-	0    1    1    0   
+P 6350 4200
+F 0 "#PWR0153" H 6350 3950 50  0001 C CNN
+F 1 "GND" V 6355 4072 50  0000 R CNN
+F 2 "" H 6350 4200 50  0001 C CNN
+F 3 "" H 6350 4200 50  0001 C CNN
+	1    6350 4200
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0154
@@ -175,10 +175,8 @@ F 3 "" H 7650 3900 50  0001 C CNN
 	1    7650 3900
 	0    1    1    0   
 $EndComp
-Text HLabel 8750 3300 2    50   Input ~ 0
+Text HLabel 9000 3300 2    50   Input ~ 0
 RF4463_ANT_GND
-Text HLabel 8750 3200 2    50   Input ~ 0
-RF4463_ANT
 $Comp
 L Device:C C16
 U 1 1 612DB4E1
@@ -241,6 +239,192 @@ Text HLabel 8750 3700 2    50   Input ~ 0
 RF4463_SDO
 Text HLabel 8750 3900 2    50   Input ~ 0
 RF4463_SPI_CLK
-Text HLabel 4400 3100 2    50   Input ~ 0
-LoRa_ANT
+$Comp
+L Connector:Conn_Coaxial J39
+U 1 1 616A0FD1
+P 4650 3000
+F 0 "J39" H 4750 2975 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4750 2884 50  0000 L CNN
+F 2 "" H 4650 3000 50  0001 C CNN
+F 3 " ~" H 4650 3000 50  0001 C CNN
+	1    4650 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3100 4450 3100
+Wire Wire Line
+	4450 3100 4450 3000
+Wire Wire Line
+	4650 3200 4400 3200
+$Comp
+L Connector:Conn_Coaxial J40
+U 1 1 616A364E
+P 9000 3050
+F 0 "J40" H 9100 3025 50  0000 L CNN
+F 1 "Conn_Coaxial" H 9100 2934 50  0000 L CNN
+F 2 "" H 9000 3050 50  0001 C CNN
+F 3 " ~" H 9000 3050 50  0001 C CNN
+	1    9000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3050 8800 3200
+Wire Wire Line
+	8800 3200 8750 3200
+Wire Wire Line
+	8750 3300 9000 3300
+Wire Wire Line
+	9000 3300 9000 3250
+$Comp
+L Device:LED D5
+U 1 1 616A59D7
+P 3000 4100
+F 0 "D5" V 3039 3982 50  0000 R CNN
+F 1 "LED" V 2948 3982 50  0000 R CNN
+F 2 "" H 3000 4100 50  0001 C CNN
+F 3 "~" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 3600 3000 3600
+$Comp
+L Device:R R13
+U 1 1 616A6F08
+P 3000 4500
+F 0 "R13" H 3070 4546 50  0000 L CNN
+F 1 "15" H 3070 4455 50  0000 L CNN
+F 2 "" V 2930 4500 50  0001 C CNN
+F 3 "~" H 3000 4500 50  0001 C CNN
+	1    3000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4250 3000 4350
+$Comp
+L power:GND #PWR0173
+U 1 1 616A7A03
+P 3000 4800
+F 0 "#PWR0173" H 3000 4550 50  0001 C CNN
+F 1 "GND" V 3005 4672 50  0000 R CNN
+F 2 "" H 3000 4800 50  0001 C CNN
+F 3 "" H 3000 4800 50  0001 C CNN
+	1    3000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4650 3000 4800
+Text Notes 3250 4500 0    50   ~ 0
+Blaue LED\n3V typ / 20mA typ 
+$Comp
+L Device:Jumper_NC_Dual JP3
+U 1 1 616A9A84
+P 1850 3750
+F 0 "JP3" V 1896 3852 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 1805 3852 50  0000 L CNN
+F 2 "" H 1850 3750 50  0001 C CNN
+F 3 "~" H 1850 3750 50  0001 C CNN
+	1    1850 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 3600 3000 3950
+Wire Wire Line
+	2100 3500 2100 3750
+Wire Wire Line
+	2100 3750 1950 3750
+Wire Wire Line
+	2100 3500 3300 3500
+Wire Wire Line
+	2650 3100 2650 2950
+Wire Wire Line
+	2650 2950 1850 2950
+Wire Wire Line
+	1850 2950 1850 3500
+$Comp
+L Device:Jumper_NC_Dual JP4
+U 1 1 616ADAD3
+P 6350 3950
+F 0 "JP4" V 6396 4052 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 6305 4052 50  0000 L CNN
+F 2 "" H 6350 3950 50  0001 C CNN
+F 3 "~" H 6350 3950 50  0001 C CNN
+	1    6350 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 3600 7300 3600
+Wire Wire Line
+	7300 3600 7300 3950
+Wire Wire Line
+	7300 3950 6450 3950
+Wire Wire Line
+	6350 3700 6350 2950
+Wire Wire Line
+	6350 2950 7000 2950
+Wire Wire Line
+	7000 2950 7000 3200
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 6168BA24
+P 5550 3300
+F 0 "JP?" V 5596 3402 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 5505 3402 50  0000 L CNN
+F 2 "" H 5550 3300 50  0001 C CNN
+F 3 "~" H 5550 3300 50  0001 C CNN
+	1    5550 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6168C756
+P 5550 3550
+F 0 "#PWR?" H 5550 3300 50  0001 C CNN
+F 1 "GND" V 5555 3422 50  0000 R CNN
+F 2 "" H 5550 3550 50  0001 C CNN
+F 3 "" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3050 5550 2800
+Wire Wire Line
+	5550 2800 5300 2800
+Wire Wire Line
+	2900 2800 2900 3100
+Wire Wire Line
+	4400 3300 5450 3300
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 6168DEC2
+P 5300 4150
+F 0 "JP?" V 5346 4252 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 5255 4252 50  0000 L CNN
+F 2 "" H 5300 4150 50  0001 C CNN
+F 3 "~" H 5300 4150 50  0001 C CNN
+	1    5300 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6168E6D9
+P 5300 4400
+F 0 "#PWR?" H 5300 4150 50  0001 C CNN
+F 1 "GND" V 5305 4272 50  0000 R CNN
+F 2 "" H 5300 4400 50  0001 C CNN
+F 3 "" H 5300 4400 50  0001 C CNN
+	1    5300 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4150 5150 4150
+Wire Wire Line
+	5150 4150 5150 3400
+Wire Wire Line
+	5150 3400 4400 3400
+Wire Wire Line
+	5300 3900 5300 2800
+Connection ~ 5300 2800
+Wire Wire Line
+	5300 2800 2900 2800
 $EndSCHEMATC

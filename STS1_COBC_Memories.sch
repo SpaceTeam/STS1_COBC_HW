@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -53,7 +53,7 @@ F 11 "https://www.arrow.com/en/products/cy15b108qn-40sxi/cypress-semiconductor?r
 $EndComp
 Text HLabel 4300 3000 2    50   Input ~ 0
 Flash_CLK
-Text HLabel 4400 2800 2    50   Input ~ 0
+Text HLabel 4400 1700 1    50   Input ~ 0
 Flash_PowerSupply
 Text HLabel 4300 3100 2    50   Input ~ 0
 Flash_DataInput
@@ -67,7 +67,7 @@ Text HLabel 8750 3200 2    50   Input ~ 0
 FRAM_DataInput
 Text HLabel 7750 3000 0    50   Input ~ 0
 FRAM_DataOutput
-Text HLabel 7750 3200 0    50   Input ~ 0
+Text HLabel 8750 1700 1    50   Input ~ 0
 FRAM_PowerSupply
 $Comp
 L power:GND #PWR0139
@@ -83,52 +83,182 @@ $EndComp
 $Comp
 L power:GND #PWR0140
 U 1 1 6129295C
-P 8750 2900
-F 0 "#PWR0140" H 8750 2650 50  0001 C CNN
-F 1 "GND" V 8755 2772 50  0000 R CNN
-F 2 "" H 8750 2900 50  0001 C CNN
-F 3 "" H 8750 2900 50  0001 C CNN
-	1    8750 2900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8750 3000 8750 2900
-Connection ~ 8750 2900
-Wire Wire Line
-	6900 3100 6900 2250
-Wire Wire Line
-	6900 2250 8750 2250
-Wire Wire Line
-	8750 2250 8750 2900
-Wire Wire Line
-	6900 3100 7750 3100
-$Comp
-L power:GND #PWR0141
-U 1 1 612BEAFE
-P 7550 2900
-F 0 "#PWR0141" H 7550 2650 50  0001 C CNN
-F 1 "GND" V 7555 2772 50  0000 R CNN
-F 2 "" H 7550 2900 50  0001 C CNN
-F 3 "" H 7550 2900 50  0001 C CNN
-	1    7550 2900
+P 7750 3200
+F 0 "#PWR0140" H 7750 2950 50  0001 C CNN
+F 1 "GND" V 7755 3072 50  0000 R CNN
+F 2 "" H 7750 3200 50  0001 C CNN
+F 3 "" H 7750 3200 50  0001 C CNN
+	1    7750 3200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4300 2800 4350 2800
-Wire Wire Line
-	4350 2800 4350 2900
-Wire Wire Line
-	4350 2900 4300 2900
-Connection ~ 4350 2800
-Wire Wire Line
-	4350 2800 4400 2800
+	6900 3100 7750 3100
 Text HLabel 7650 2850 1    50   Input ~ 0
 FRAM_CS
 Wire Wire Line
 	7750 2900 7650 2900
 Wire Wire Line
 	7650 2850 7650 2900
-Connection ~ 7650 2900
+Text HLabel 2100 3000 0    50   Input ~ 0
+Flash_WP
+Text Notes 3100 3750 0    50   ~ 0
+EP pin ??\n
 Wire Wire Line
-	7650 2900 7550 2900
+	4300 2800 4400 2800
+$Comp
+L Device:Jumper_NC_Dual JP2
+U 1 1 616C1C39
+P 5050 2800
+F 0 "JP2" V 5004 2902 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 5095 2902 50  0000 L CNN
+F 2 "" H 5050 2800 50  0001 C CNN
+F 3 "~" H 5050 2800 50  0001 C CNN
+	1    5050 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 616C2B2C
+P 5050 3050
+F 0 "#PWR0123" H 5050 2800 50  0001 C CNN
+F 1 "GND" V 5055 2922 50  0000 R CNN
+F 2 "" H 5050 3050 50  0001 C CNN
+F 3 "" H 5050 3050 50  0001 C CNN
+	1    5050 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2900 4850 2800
+Wire Wire Line
+	4850 2800 4950 2800
+Wire Wire Line
+	4300 2900 4850 2900
+Wire Wire Line
+	5050 2550 4700 2550
+Wire Wire Line
+	4700 2550 4700 2800
+Wire Wire Line
+	4700 2800 4400 2800
+Connection ~ 4400 2800
+Text HLabel 6900 3100 0    50   Input ~ 0
+FRAM_WP
+$Comp
+L power:GND #PWR0141
+U 1 1 616C77F0
+P 8750 3000
+F 0 "#PWR0141" H 8750 2750 50  0001 C CNN
+F 1 "GND" V 8755 2872 50  0000 R CNN
+F 2 "" H 8750 3000 50  0001 C CNN
+F 3 "" H 8750 3000 50  0001 C CNN
+	1    8750 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61691DC4
+P 4650 1850
+F 0 "C?" V 4398 1850 50  0000 C CNN
+F 1 "100n" V 4489 1850 50  0000 C CNN
+F 2 "" H 4688 1700 50  0001 C CNN
+F 3 "~" H 4650 1850 50  0001 C CNN
+	1    4650 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61692327
+P 4650 2200
+F 0 "C?" V 4398 2200 50  0000 C CNN
+F 1 "47u" V 4489 2200 50  0000 C CNN
+F 2 "" H 4688 2050 50  0001 C CNN
+F 3 "~" H 4650 2200 50  0001 C CNN
+	1    4650 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61692683
+P 4800 2200
+F 0 "#PWR?" H 4800 1950 50  0001 C CNN
+F 1 "GND" V 4805 2072 50  0000 R CNN
+F 2 "" H 4800 2200 50  0001 C CNN
+F 3 "" H 4800 2200 50  0001 C CNN
+	1    4800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61692ABE
+P 4800 1850
+F 0 "#PWR?" H 4800 1600 50  0001 C CNN
+F 1 "GND" V 4805 1722 50  0000 R CNN
+F 2 "" H 4800 1850 50  0001 C CNN
+F 3 "" H 4800 1850 50  0001 C CNN
+	1    4800 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1700 4400 1850
+Wire Wire Line
+	4400 2200 4500 2200
+Connection ~ 4400 2200
+Wire Wire Line
+	4400 2200 4400 2800
+Wire Wire Line
+	4400 1850 4500 1850
+Connection ~ 4400 1850
+Wire Wire Line
+	4400 1850 4400 2200
+$Comp
+L Device:C C?
+U 1 1 61694B9B
+P 8900 1900
+F 0 "C?" V 8648 1900 50  0000 C CNN
+F 1 "100n" V 8739 1900 50  0000 C CNN
+F 2 "" H 8938 1750 50  0001 C CNN
+F 3 "~" H 8900 1900 50  0001 C CNN
+	1    8900 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61694BA1
+P 8900 2250
+F 0 "C?" V 8648 2250 50  0000 C CNN
+F 1 "47u" V 8739 2250 50  0000 C CNN
+F 2 "" H 8938 2100 50  0001 C CNN
+F 3 "~" H 8900 2250 50  0001 C CNN
+	1    8900 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61694BA7
+P 9050 2250
+F 0 "#PWR?" H 9050 2000 50  0001 C CNN
+F 1 "GND" V 9055 2122 50  0000 R CNN
+F 2 "" H 9050 2250 50  0001 C CNN
+F 3 "" H 9050 2250 50  0001 C CNN
+	1    9050 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61694BAD
+P 9050 1900
+F 0 "#PWR?" H 9050 1650 50  0001 C CNN
+F 1 "GND" V 9055 1772 50  0000 R CNN
+F 2 "" H 9050 1900 50  0001 C CNN
+F 3 "" H 9050 1900 50  0001 C CNN
+	1    9050 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 1700 8750 1900
+Connection ~ 8750 1900
+Wire Wire Line
+	8750 1900 8750 2250
+Connection ~ 8750 2250
+Wire Wire Line
+	8750 2250 8750 2900
 $EndSCHEMATC

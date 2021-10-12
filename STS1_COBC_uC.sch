@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -71,19 +71,14 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Male J21
 U 1 1 6127DD1F
-P 7200 3850
-F 0 "J21" V 7262 3894 50  0000 L CNN
-F 1 "Conn_01x01_Male" V 7353 3894 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7200 3850 50  0001 C CNN
-F 3 "~" H 7200 3850 50  0001 C CNN
-	1    7200 3850
-	0    1    1    0   
+P 10700 4050
+F 0 "J21" H 9800 4050 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 10550 3900 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10700 4050 50  0001 C CNN
+F 3 "~" H 10700 4050 50  0001 C CNN
+	1    10700 4050
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6900 4050 7200 4050
-Wire Wire Line
-	7200 4050 7300 4050
-Connection ~ 7200 4050
 $Comp
 L Connector:Conn_01x01_Male J23
 U 1 1 6128ADBD
@@ -153,8 +148,8 @@ F 3 "~" H 7750 2650 50  0001 C CNN
 	1    7750 2650
 	0    1    1    0   
 $EndComp
-Text Notes 8800 2100 0    50   ~ 0
-PA1 SPI4 MOSI\nPA4 SPI3 NSS\nPA5 SPI1 SCLK\nPA6 SPI1 MISO\nPA7 SPI1 MOSI\nPA11 SPI4 MISO\nPA13 SWDIO\nPA14 SWCLK\nPB9 SPI2 NSS\nPB12 SPI4 NSS\nPB13 SPI4 SCLK\nPC2 SPI2 MISO\nPC3 SPI2 MOSI\nPC7 SPI2 SCLK\nPC10 SPI3 SCLK\nPC11 SPI3 MISO\nPC12 SPI3 MOSI\n\n\n
+Text Notes 9650 2400 0    50   ~ 0
+PA1 SPI4 MOSI\nPA4 SPI3 NSS\nPA5 SPI1 SCLK\nPA6 SPI1 MISO\nPA7 SPI1 MOSI\nPA11 SPI4 MISO\nPA13 SWDIO\nPA14 SWCLK\nPB9 SPI2 NSS\nPB12 SPI4 NSS\nPB13 SPI4 SCLK\nPC2 SPI2 MISO\nPC3 SPI2 MOSI\nPC7 SPI2 SCLK\nPC10 SPI3 SCLK\nPC11 SPI3 MISO\nPC12 SPI3 MOSI\n\n\n\n
 Wire Wire Line
 	6600 2250 6500 2250
 Wire Wire Line
@@ -173,10 +168,6 @@ Wire Wire Line
 	4250 4050 4350 4050
 Text HLabel 3450 4250 0    50   Input ~ 0
 SPI2_CLK
-Wire Wire Line
-	7300 4050 7300 6200
-Wire Wire Line
-	7300 6200 6250 6200
 Wire Wire Line
 	6250 6200 6250 7250
 Wire Wire Line
@@ -261,8 +252,6 @@ Connection ~ 7300 3100
 Wire Wire Line
 	7300 3100 7400 3100
 Connection ~ 6950 2850
-Wire Wire Line
-	6950 2850 6950 3050
 Wire Wire Line
 	7000 5400 7050 5400
 Connection ~ 7000 5400
@@ -694,7 +683,7 @@ $Comp
 L Connector:Conn_01x01_Male J14
 U 1 1 612E69C9
 P 6100 2000
-F 0 "J14" H 6072 1932 50  0000 R CNN
+F 0 "J14" H 5400 2050 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 6072 2023 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6100 2000 50  0001 C CNN
 F 3 "~" H 6100 2000 50  0001 C CNN
@@ -704,21 +693,18 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Male J13
 U 1 1 612E702C
-P 6000 2200
-F 0 "J13" H 6000 2200 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 6450 2150 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6000 2200 50  0001 C CNN
-F 3 "~" H 6000 2200 50  0001 C CNN
-	1    6000 2200
+P 6000 2050
+F 0 "J13" H 5750 2000 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6000 2050 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6000 2050 50  0001 C CNN
+F 3 "~" H 6000 2050 50  0001 C CNN
+	1    6000 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 2350 6200 2200
 Text HLabel 6200 1800 1    50   Input ~ 0
 SPI3_MOSI
 Text HLabel 6300 1800 1    50   Input ~ 0
 SPI3_MISO
-Connection ~ 6200 2200
 Text HLabel 6400 1800 1    50   Input ~ 0
 SPI3_SCLK
 $Comp
@@ -781,24 +767,19 @@ F 3 "~" H 4500 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4700 4900
-Text HLabel 7450 3500 2    50   Input ~ 0
+Text HLabel 8300 3450 2    50   Input ~ 0
 SPI4_MISO
-Wire Wire Line
-	6900 3450 7300 3450
 $Comp
 L Connector:Conn_01x01_Male J22
 U 1 1 61350C62
-P 7300 3250
-F 0 "J22" V 7362 3294 50  0000 L CNN
-F 1 "Conn_01x01_Male" V 7453 3294 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7300 3250 50  0001 C CNN
-F 3 "~" H 7300 3250 50  0001 C CNN
-	1    7300 3250
+P 8250 3250
+F 0 "J22" V 8312 3294 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 8403 3294 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8250 3250 50  0001 C CNN
+F 3 "~" H 8250 3250 50  0001 C CNN
+	1    8250 3250
 	0    1    1    0   
 $EndComp
-Connection ~ 7300 3450
-Wire Wire Line
-	7300 3450 7450 3450
 Text HLabel 5150 1100 1    50   Input ~ 0
 SPI2_NSS
 $Comp
@@ -814,22 +795,19 @@ F 3 "~" H 5350 1200 50  0001 C CNN
 $EndComp
 Text HLabel 7850 4550 2    50   Input ~ 0
 SPI4_NSS
-Text HLabel 7850 4450 2    50   Input ~ 0
+Text HLabel 9750 4450 2    50   Input ~ 0
 SPI4_SCLK
-Wire Wire Line
-	6900 4450 7050 4450
 $Comp
 L Connector:Conn_01x01_Male J19
 U 1 1 6135FDEB
-P 7050 4250
-F 0 "J19" V 7112 4294 50  0000 L CNN
-F 1 "Conn_01x01_Male" V 7203 4294 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7050 4250 50  0001 C CNN
-F 3 "~" H 7050 4250 50  0001 C CNN
-	1    7050 4250
+P 9650 4250
+F 0 "J19" V 9712 4294 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 9803 4294 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9650 4250 50  0001 C CNN
+F 3 "~" H 9650 4250 50  0001 C CNN
+	1    9650 4250
 	0    1    1    0   
 $EndComp
-Connection ~ 7050 4450
 $Comp
 L Connector:Conn_01x01_Male J15
 U 1 1 613606E2
@@ -841,8 +819,6 @@ F 3 "~" H 6200 1850 50  0001 C CNN
 	1    6200 1850
 	1    0    0    -1  
 $EndComp
-Text HLabel 8400 3650 2    50   Input ~ 0
-STM32_PA9(Watchdog_toggle)
 Wire Wire Line
 	6900 3650 8400 3650
 $Comp
@@ -891,8 +867,6 @@ Wire Wire Line
 Connection ~ 4650 3650
 Wire Wire Line
 	4650 3650 4550 3650
-Text HLabel 4550 3650 0    50   Input ~ 0
-STM32_NRST
 Wire Wire Line
 	4800 5300 5300 5300
 Wire Wire Line
@@ -917,7 +891,7 @@ F 11 "https://www.arrow.com/en/products/stm32f411ret6tr/stmicroelectronics" H 67
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 1800 6200 2200
+	6200 1800 6200 2050
 Wire Wire Line
 	6300 1800 6300 2000
 Wire Wire Line
@@ -939,10 +913,6 @@ Wire Wire Line
 	5300 2000 5300 2350
 Wire Wire Line
 	6950 1750 6950 2850
-Wire Wire Line
-	7450 3450 7450 3500
-Wire Wire Line
-	7050 4450 7850 4450
 Wire Wire Line
 	7050 4550 7850 4550
 Wire Wire Line
@@ -988,4 +958,641 @@ Wire Wire Line
 	4250 3950 4800 3950
 Wire Wire Line
 	4150 3950 4250 3950
+Text HLabel 5400 6400 0    50   Input ~ 0
+Flash_WP
+Wire Wire Line
+	5400 6400 5800 6400
+Wire Wire Line
+	5800 6400 5800 5250
+$Comp
+L Connector:Conn_01x01_Male J31
+U 1 1 616CBBC3
+P 7100 3350
+F 0 "J31" H 6300 3350 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 6400 3350 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 3350 50  0001 C CNN
+F 3 "~" H 7100 3350 50  0001 C CNN
+	1    7100 3350
+	-1   0    0    1   
+$EndComp
+Connection ~ 8250 3450
+Wire Wire Line
+	8250 3450 8300 3450
+Wire Wire Line
+	6900 3450 8250 3450
+$Comp
+L Connector:Conn_01x01_Male J32
+U 1 1 616D35EE
+P 7100 3550
+F 0 "J32" H 6250 3550 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 6350 3550 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 3550 50  0001 C CNN
+F 3 "~" H 7100 3550 50  0001 C CNN
+	1    7100 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J33
+U 1 1 616D4242
+P 7100 3750
+F 0 "J33" H 6250 3750 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 6350 3750 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 3750 50  0001 C CNN
+F 3 "~" H 7100 3750 50  0001 C CNN
+	1    7100 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J34
+U 1 1 616D45CD
+P 7100 3850
+F 0 "J34" H 6250 3850 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 6350 3850 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 3850 50  0001 C CNN
+F 3 "~" H 7100 3850 50  0001 C CNN
+	1    7100 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J35
+U 1 1 616D543B
+P 7100 3950
+F 0 "J35" H 6250 3950 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 6350 3950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 3950 50  0001 C CNN
+F 3 "~" H 7100 3950 50  0001 C CNN
+	1    7100 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J36
+U 1 1 616D5767
+P 7750 4150
+F 0 "J36" H 6900 4150 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 7000 4150 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7750 4150 50  0001 C CNN
+F 3 "~" H 7750 4150 50  0001 C CNN
+	1    7750 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J37
+U 1 1 616D5E5C
+P 7750 4250
+F 0 "J37" H 6900 4250 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 7000 4250 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7750 4250 50  0001 C CNN
+F 3 "~" H 7750 4250 50  0001 C CNN
+	1    7750 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J38
+U 1 1 616D6015
+P 7750 4350
+F 0 "J38" H 6900 4350 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 7000 4350 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7750 4350 50  0001 C CNN
+F 3 "~" H 7750 4350 50  0001 C CNN
+	1    7750 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 4150 6900 4150
+Wire Wire Line
+	6900 4250 7550 4250
+Wire Wire Line
+	7550 4350 6900 4350
+Wire Wire Line
+	6900 4450 9650 4450
+Connection ~ 9650 4450
+Wire Wire Line
+	9650 4450 9750 4450
+Wire Wire Line
+	10500 4050 10500 6200
+Connection ~ 10500 4050
+Wire Wire Line
+	6900 4050 10500 4050
+Wire Wire Line
+	6250 6200 10500 6200
+$Comp
+L Connector:Conn_01x01_Male J30
+U 1 1 61702BE6
+P 6300 7600
+F 0 "J30" H 6500 7450 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 6200 7550 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6300 7600 50  0001 C CNN
+F 3 "~" H 6300 7600 50  0001 C CNN
+	1    6300 7600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 7400 6300 5250
+$Comp
+L Connector:Conn_01x01_Male J29
+U 1 1 6170A8B0
+P 6100 6750
+F 0 "J29" H 6000 6750 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 6000 6700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6100 6750 50  0001 C CNN
+F 3 "~" H 6100 6750 50  0001 C CNN
+	1    6100 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 6550 6100 5250
+$Comp
+L Connector:Conn_01x01_Male J28
+U 1 1 61711461
+P 6000 6750
+F 0 "J28" H 5900 6750 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 5900 6700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6000 6750 50  0001 C CNN
+F 3 "~" H 6000 6750 50  0001 C CNN
+	1    6000 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 5250 6000 6550
+$Comp
+L Connector:Conn_01x01_Male J27
+U 1 1 6171766E
+P 5900 6750
+F 0 "J27" H 5800 6750 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 5800 6700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5900 6750 50  0001 C CNN
+F 3 "~" H 5900 6750 50  0001 C CNN
+	1    5900 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 5250 5900 6550
+$Comp
+L Connector:Conn_01x01_Male J26
+U 1 1 6171DA0D
+P 2950 5250
+F 0 "J26" H 2850 5250 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 2150 5250 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2950 5250 50  0001 C CNN
+F 3 "~" H 2950 5250 50  0001 C CNN
+	1    2950 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5250 3150 5250
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 61724F98
+P 2950 5150
+F 0 "J1" H 2850 5150 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 2150 5150 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2950 5150 50  0001 C CNN
+F 3 "~" H 2950 5150 50  0001 C CNN
+	1    2950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5150 4800 5150
+Wire Wire Line
+	4800 5150 4800 4550
+Wire Wire Line
+	6950 3050 6950 2850
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61748D93
+P 1400 3850
+F 0 "J?" H 600 3850 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 3850 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 3850 50  0001 C CNN
+F 3 "~" H 1400 3850 50  0001 C CNN
+	1    1400 3850
+	1    0    0    -1  
+$EndComp
+Text Label 4700 3850 2    50   ~ 0
+PC1
+Wire Wire Line
+	4800 3850 4700 3850
+Text Label 1800 3850 0    50   ~ 0
+PC1
+Wire Wire Line
+	1800 3850 1600 3850
+Text Label 4700 3750 2    50   ~ 0
+PC0
+Wire Wire Line
+	4800 3750 4700 3750
+Text Label 1800 3700 0    50   ~ 0
+PC0
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6176038F
+P 1400 3700
+F 0 "J?" H 600 3700 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 3700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 3700 50  0001 C CNN
+F 3 "~" H 1400 3700 50  0001 C CNN
+	1    1400 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3700 1800 3700
+Text Label 4800 3250 2    50   ~ 0
+PC14
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61767C6F
+P 1400 3550
+F 0 "J?" H 600 3550 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 3550 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 3550 50  0001 C CNN
+F 3 "~" H 1400 3550 50  0001 C CNN
+	1    1400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61767ECF
+P 1400 3400
+F 0 "J?" H 600 3400 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 3400 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 3400 50  0001 C CNN
+F 3 "~" H 1400 3400 50  0001 C CNN
+	1    1400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 617681A9
+P 1400 3250
+F 0 "J?" H 600 3250 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 3250 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 3250 50  0001 C CNN
+F 3 "~" H 1400 3250 50  0001 C CNN
+	1    1400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 617683F0
+P 1400 3100
+F 0 "J?" H 600 3100 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 3100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 3100 50  0001 C CNN
+F 3 "~" H 1400 3100 50  0001 C CNN
+	1    1400 3100
+	1    0    0    -1  
+$EndComp
+Text Label 4800 3350 2    50   ~ 0
+PC15
+Text Label 4800 3150 2    50   ~ 0
+PC13
+Text Label 1800 3550 0    50   ~ 0
+PC15
+Text Label 1800 3400 0    50   ~ 0
+PC14
+Text Label 1800 3250 0    50   ~ 0
+PC13
+Wire Wire Line
+	1600 3250 1800 3250
+Wire Wire Line
+	1600 3400 1800 3400
+Wire Wire Line
+	1600 3550 1800 3550
+Text Label 5400 2350 1    50   ~ 0
+PB9
+Text Label 5600 2350 1    50   ~ 0
+PB7
+Text Label 5700 2350 1    50   ~ 0
+PB6
+Text Label 5800 2350 1    50   ~ 0
+PB5
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6177F09C
+P 1400 2950
+F 0 "J?" H 600 2950 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 2950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2950 50  0001 C CNN
+F 3 "~" H 1400 2950 50  0001 C CNN
+	1    1400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6177F2AE
+P 1400 2800
+F 0 "J?" H 600 2800 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 2800 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2800 50  0001 C CNN
+F 3 "~" H 1400 2800 50  0001 C CNN
+	1    1400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6177F4C0
+P 1400 2650
+F 0 "J?" H 600 2650 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 2650 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2650 50  0001 C CNN
+F 3 "~" H 1400 2650 50  0001 C CNN
+	1    1400 2650
+	1    0    0    -1  
+$EndComp
+Text Label 1800 3100 0    50   ~ 0
+PB9
+Text Label 1800 2950 0    50   ~ 0
+PB7
+Text Label 1800 2800 0    50   ~ 0
+PB6
+Text Label 1800 2650 0    50   ~ 0
+PB5
+Wire Wire Line
+	1600 3100 1800 3100
+Wire Wire Line
+	1600 2950 1800 2950
+Wire Wire Line
+	1600 2800 1800 2800
+Wire Wire Line
+	1600 2650 1800 2650
+Connection ~ 6200 2050
+Wire Wire Line
+	6200 2050 6200 2350
+Text Label 5900 2350 1    50   ~ 0
+PB4
+Text Label 6000 2350 1    50   ~ 0
+PB3
+Text Label 6100 2350 1    50   ~ 0
+PD2
+Text Label 6500 2350 1    50   ~ 0
+PA15
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 617A6351
+P 1400 2500
+F 0 "J?" H 600 2500 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 2500 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2500 50  0001 C CNN
+F 3 "~" H 1400 2500 50  0001 C CNN
+	1    1400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 617A65E0
+P 1400 2350
+F 0 "J?" H 600 2350 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 2350 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2350 50  0001 C CNN
+F 3 "~" H 1400 2350 50  0001 C CNN
+	1    1400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 617A68C9
+P 1400 2200
+F 0 "J?" H 600 2200 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 2200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2200 50  0001 C CNN
+F 3 "~" H 1400 2200 50  0001 C CNN
+	1    1400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 617A6ADA
+P 1400 2050
+F 0 "J?" H 600 2050 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 700 2050 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2050 50  0001 C CNN
+F 3 "~" H 1400 2050 50  0001 C CNN
+	1    1400 2050
+	1    0    0    -1  
+$EndComp
+Text Label 1800 2500 0    50   ~ 0
+PB4
+Text Label 1800 2350 0    50   ~ 0
+PB3
+Text Label 1800 2200 0    50   ~ 0
+PD2
+Text Label 1800 2050 0    50   ~ 0
+PA15
+Wire Wire Line
+	1600 2050 1800 2050
+Wire Wire Line
+	1600 2200 1800 2200
+Wire Wire Line
+	1600 2350 1800 2350
+Wire Wire Line
+	1600 2500 1800 2500
+$Comp
+L power:GND #PWR?
+U 1 1 61674169
+P 950 6500
+AR Path="/612B4A25/61674169" Ref="#PWR?"  Part="1" 
+AR Path="/61272FBF/61674169" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 950 6250 50  0001 C CNN
+F 1 "GND" V 955 6372 50  0000 R CNN
+F 2 "" H 950 6500 50  0001 C CNN
+F 3 "" H 950 6500 50  0001 C CNN
+	1    950  6500
+	0    1    1    0   
+$EndComp
+Text HLabel 2750 6500 2    50   Input ~ 0
+Watchdog_VCC
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61674170
+P 2650 6700
+AR Path="/612B4A25/61674170" Ref="J?"  Part="1" 
+AR Path="/61272FBF/61674170" Ref="J?"  Part="1" 
+F 0 "J?" V 2804 6612 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 2713 6612 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2650 6700 50  0001 C CNN
+F 3 "~" H 2650 6700 50  0001 C CNN
+	1    2650 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 6500 2750 6500
+Connection ~ 2650 6500
+Text Notes 750  7600 0    50   ~ 0
+WDI needs to be toggled during WTP if not WDO is asserted\n
+$Comp
+L Device:R R?
+U 1 1 6167417A
+P 800 6250
+AR Path="/612B4A25/6167417A" Ref="R?"  Part="1" 
+AR Path="/61272FBF/6167417A" Ref="R?"  Part="1" 
+F 0 "R?" H 730 6204 50  0000 R CNN
+F 1 "4k7" H 750 6300 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 730 6250 50  0001 C CNN
+F 3 "~" H 800 6250 50  0001 C CNN
+	1    800  6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:STWD100PYW83F IC?
+U 1 1 61674186
+P 950 6400
+AR Path="/612B4A25/61674186" Ref="IC?"  Part="1" 
+AR Path="/61272FBF/61674186" Ref="IC?"  Part="1" 
+F 0 "IC?" H 1500 6665 50  0000 C CNN
+F 1 "STWD100PYW83F" H 1500 6574 50  0000 C CNN
+F 2 "SamacSys_Parts:SOT65P210X110-5N" H 1900 6500 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/8291513P" H 1900 6400 50  0001 L CNN
+F 4 "STMicroelectronics STWD100PYW83F, Watchdog Timer, 2.7  5.5 V, 5-Pin SOT-323" H 1900 6300 50  0001 L CNN "Description"
+F 5 "1.1" H 1900 6200 50  0001 L CNN "Height"
+F 6 "8291513P" H 1900 6100 50  0001 L CNN "RS Part Number"
+F 7 "http://uk.rs-online.com/web/p/products/8291513P" H 1900 6000 50  0001 L CNN "RS Price/Stock"
+F 8 "STMicroelectronics" H 1900 5900 50  0001 L CNN "Manufacturer_Name"
+F 9 "STWD100PYW83F" H 1900 5800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    950  6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6400 800  6400
+Wire Wire Line
+	800  5900 800  6100
+Wire Wire Line
+	2050 6400 2450 6400
+$Comp
+L power:GND #PWR?
+U 1 1 61674190
+P 950 6600
+AR Path="/612B4A25/61674190" Ref="#PWR?"  Part="1" 
+AR Path="/61272FBF/61674190" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 950 6350 50  0001 C CNN
+F 1 "GND" V 955 6472 50  0000 R CNN
+F 2 "" H 950 6600 50  0001 C CNN
+F 3 "" H 950 6600 50  0001 C CNN
+	1    950  6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61674196
+P 2050 6200
+AR Path="/612B4A25/61674196" Ref="J?"  Part="1" 
+AR Path="/61272FBF/61674196" Ref="J?"  Part="1" 
+F 0 "J?" V 2112 6244 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 2050 6250 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2050 6200 50  0001 C CNN
+F 3 "~" H 2050 6200 50  0001 C CNN
+	1    2050 6200
+	0    1    1    0   
+$EndComp
+Connection ~ 2050 6400
+$Comp
+L Device:R R?
+U 1 1 6167419D
+P 2500 6650
+AR Path="/612B4A25/6167419D" Ref="R?"  Part="1" 
+AR Path="/61272FBF/6167419D" Ref="R?"  Part="1" 
+F 0 "R?" H 2430 6604 50  0000 R CNN
+F 1 "100" V 2500 6700 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 6650 50  0001 C CNN
+F 3 "~" H 2500 6650 50  0001 C CNN
+	1    2500 6650
+	-1   0    0    1   
+$EndComp
+Connection ~ 2500 6500
+Wire Wire Line
+	2500 6500 2650 6500
+$Comp
+L Device:LED D?
+U 1 1 616741A5
+P 2500 6950
+AR Path="/612B4A25/616741A5" Ref="D?"  Part="1" 
+AR Path="/61272FBF/616741A5" Ref="D?"  Part="1" 
+F 0 "D?" V 2539 6832 50  0000 R CNN
+F 1 "LED" V 2448 6832 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2500 6950 50  0001 C CNN
+F 3 "~" H 2500 6950 50  0001 C CNN
+	1    2500 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 616741AB
+P 2500 7100
+AR Path="/612B4A25/616741AB" Ref="#PWR?"  Part="1" 
+AR Path="/61272FBF/616741AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 6850 50  0001 C CNN
+F 1 "GND" H 2505 6927 50  0000 C CNN
+F 2 "" H 2500 7100 50  0001 C CNN
+F 3 "" H 2500 7100 50  0001 C CNN
+	1    2500 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 616741B1
+P 2050 7000
+AR Path="/612B4A25/616741B1" Ref="C?"  Part="1" 
+AR Path="/61272FBF/616741B1" Ref="C?"  Part="1" 
+F 0 "C?" H 1850 7050 50  0000 L CNN
+F 1 "100n" H 1850 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2088 6850 50  0001 C CNN
+F 3 "~" H 2050 7000 50  0001 C CNN
+	1    2050 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 616741B7
+P 2250 7000
+AR Path="/612B4A25/616741B7" Ref="C?"  Part="1" 
+AR Path="/61272FBF/616741B7" Ref="C?"  Part="1" 
+F 0 "C?" H 2250 7100 50  0000 L CNN
+F 1 "47u" H 2300 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 6850 50  0001 C CNN
+F 3 "~" H 2250 7000 50  0001 C CNN
+	1    2250 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6850 2250 6500
+Wire Wire Line
+	2250 6500 2500 6500
+Wire Wire Line
+	2250 6500 2050 6500
+Connection ~ 2250 6500
+Wire Wire Line
+	2050 6500 2050 6850
+Connection ~ 2050 6500
+$Comp
+L power:GND #PWR?
+U 1 1 616741C3
+P 2250 7150
+AR Path="/612B4A25/616741C3" Ref="#PWR?"  Part="1" 
+AR Path="/61272FBF/616741C3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2250 6900 50  0001 C CNN
+F 1 "GND" H 2255 6977 50  0000 C CNN
+F 2 "" H 2250 7150 50  0001 C CNN
+F 3 "" H 2250 7150 50  0001 C CNN
+	1    2250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 616741C9
+P 2050 7150
+AR Path="/612B4A25/616741C9" Ref="#PWR?"  Part="1" 
+AR Path="/61272FBF/616741C9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2050 6900 50  0001 C CNN
+F 1 "GND" H 2055 6977 50  0000 C CNN
+F 2 "" H 2050 7150 50  0001 C CNN
+F 3 "" H 2050 7150 50  0001 C CNN
+	1    2050 7150
+	1    0    0    -1  
+$EndComp
+Text Label 8400 3650 0    50   ~ 0
+STM32_PA9(Watchdog_toggle)
+Text Label 2450 6400 0    50   ~ 0
+STM32_PA9(Watchdog_toggle)
+Text Label 4550 3650 2    50   ~ 0
+STM32_NRST
+Text Label 800  5900 1    50   ~ 0
+STM32_NRST
 $EndSCHEMATC
