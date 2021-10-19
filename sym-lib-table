@@ -5,4 +5,5 @@
   (lib (name STS1_COBC_RFM)(type Legacy)(uri ${KIPRJMOD}/SpaceteamLib/STS1_COBC_RFM.lib)(options "")(descr ""))
   (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/Parts/SamacSys_Parts.lib)(options "")(descr ""))
   (lib (name STS1BuckBoost)(type Legacy)(uri ${KIPRJMOD}/STS1BuckBoost.lib)(options "")(descr ""))
+  (lib (name STS1_DCDC)(type Legacy)(uri ${KIPRJMOD}/SpaceteamLib/STS1_DCDC.lib)(options "")(descr ""))
 )

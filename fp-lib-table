@@ -2,4 +2,5 @@
   (lib (name STS)(type KiCad)(uri ${KIPRJMOD}/STSLib/STS.pretty)(options "")(descr ""))
   (lib (name spaceteam)(type KiCad)(uri ${KIPRJMOD}/SpaceteamLib/spaceteam.pretty)(options "")(descr ""))
   (lib (name SamacSys_Parts)(type KiCad)(uri ${KIPRJMOD}/Parts/SamacSys_Parts.pretty)(options "")(descr ""))
+  (lib (name STS1_DCDC)(type KiCad)(uri ${KIPRJMOD}/SpaceteamLib/STS1_DCDC.pretty)(options "")(descr ""))
 )
