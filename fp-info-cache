@@ -1,4 +1,4 @@
-19230720965710887
+19229149764838970
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2274,13 +2274,6 @@ speaker CUI
 0
 2
 2
-CY15B108QN-40SXI
-SOIC127P800X203-8N
-CY15B108QN-40SXI
-Integrated Circuit
-0
-8
-8
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -76299,13 +76292,6 @@ rotary encoder
 0
 5
 4
-STM32F411RET6TR
-QFP50P1200X1200X160-64N
-LQF64
-Integrated Circuit
-0
-64
-64
 STS
 Coordinates
 
@@ -76329,6 +76315,20 @@ RFM23BP
 16
 STS
 SpaceTeam_Logo
+
+
+0
+0
+0
+STS1_DCDC
+VQFN-HR
+
+
+0
+11
+11
+STS1_DCDC
+XAL8080
 
 
 0
@@ -83082,13 +83082,6 @@ varistor SIOV
 0
 2
 2
-W25Q01JVZEIQ
-SON127P800X600X80-9N-D
-8-Pad WSON 8x6
-Integrated Circuit
-0
-9
-9
 spaceteam
 STLogo
 
