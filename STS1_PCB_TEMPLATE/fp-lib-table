@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name STS)(type KiCad)(uri ${KIPRJMOD}/STSLib/STS.pretty)(options "")(descr ""))
-  (lib (name spaceteam)(type KiCad)(uri ${KIPRJMOD}/SpaceteamLib/spaceteam.pretty)(options "")(descr ""))
-)

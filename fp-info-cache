@@ -1,4 +1,4 @@
-19230720965710887
+19238897573662437
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76329,6 +76329,41 @@ RFM23BP
 16
 STS
 SpaceTeam_Logo
+
+
+0
+0
+0
+STS1_DCDC
+VQFN-HR
+
+
+0
+11
+11
+STS1_DCDC
+XAL8080
+
+
+0
+2
+2
+STS1_RF
+LoRa1268F30
+LoRa1268F30
+
+0
+16
+16
+STS1_RF
+STS1_RF4463F30
+STS1_RF4463F30
+
+0
+16
+16
+STS1library
+RF4463F30
 
 
 0
