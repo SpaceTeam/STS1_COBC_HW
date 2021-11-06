@@ -104,25 +104,14 @@ Flash_WP
 Wire Wire Line
 	4300 2800 4400 2800
 $Comp
-L Device:Jumper_NC_Dual JP2
-U 1 1 616C1C39
-P 5050 2800
-F 0 "JP2" V 5004 2902 50  0000 L CNN
-F 1 "Jumper_NC_Dual" V 5095 2902 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5050 2800 50  0001 C CNN
-F 3 "~" H 5050 2800 50  0001 C CNN
-	1    5050 2800
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0123
 U 1 1 616C2B2C
-P 5050 3050
-F 0 "#PWR0123" H 5050 2800 50  0001 C CNN
-F 1 "GND" V 5055 2922 50  0000 R CNN
-F 2 "" H 5050 3050 50  0001 C CNN
-F 3 "" H 5050 3050 50  0001 C CNN
-	1    5050 3050
+P 4950 2900
+F 0 "#PWR0123" H 4950 2650 50  0001 C CNN
+F 1 "GND" V 4955 2772 50  0000 R CNN
+F 2 "" H 4950 2900 50  0001 C CNN
+F 3 "" H 4950 2900 50  0001 C CNN
+	1    4950 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -273,7 +262,7 @@ U 1 1 6182DF07
 P 3000 3800
 F 0 "J54" H 3108 3981 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2600 3800 50  0000 C CNN
-F 2 "" H 3000 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3000 3800 50  0001 C CNN
 F 3 "~" H 3000 3800 50  0001 C CNN
 	1    3000 3800
 	1    0    0    -1  
@@ -284,7 +273,7 @@ U 1 1 6182EA34
 P 3400 3900
 F 0 "J55" H 3428 3926 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 3550 3900 50  0000 L CNN
-F 2 "" H 3400 3900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3400 3900 50  0001 C CNN
 F 3 "~" H 3400 3900 50  0001 C CNN
 	1    3400 3900
 	1    0    0    -1  
@@ -294,4 +283,26 @@ Wire Wire Line
 Connection ~ 3200 3800
 Wire Wire Line
 	3200 3800 3200 3900
+$Comp
+L Connector:Conn_01x01_Male J56
+U 1 1 618B70AC
+P 5250 2550
+F 0 "J56" H 5222 2482 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 5222 2573 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5250 2550 50  0001 C CNN
+F 3 "~" H 5250 2550 50  0001 C CNN
+	1    5250 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J64
+U 1 1 618CCC73
+P 5150 2900
+F 0 "J64" H 5122 2782 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5122 2873 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5150 2900 50  0001 C CNN
+F 3 "~" H 5150 2900 50  0001 C CNN
+	1    5150 2900
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
