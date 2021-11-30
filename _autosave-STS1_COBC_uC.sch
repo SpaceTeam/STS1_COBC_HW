@@ -511,17 +511,6 @@ Wire Wire Line
 	5400 6400 5800 6400
 Wire Wire Line
 	5800 6400 5800 5250
-$Comp
-L Connector:Conn_01x01_Male J31
-U 1 1 616CBBC3
-P 7100 3350
-F 0 "J31" H 6300 3350 50  0000 L CNN
-F 1 "Conn_01x01_Male" H 6400 3350 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 3350 50  0001 C CNN
-F 3 "~" H 7100 3350 50  0001 C CNN
-	1    7100 3350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10500 4050 10500 6200
 Wire Wire Line
@@ -1324,4 +1313,15 @@ Text HLabel 5800 2350 1    50   Input ~ 0
 SPI3_CS3
 Wire Wire Line
 	6900 4450 9750 4450
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61BEB8B5
+P 6900 3350
+F 0 "TP?" V 6900 3550 50  0000 L CNN
+F 1 "TestPoint" V 6900 3700 50  0000 L CNN
+F 2 "" H 7100 3350 50  0001 C CNN
+F 3 "~" H 7100 3350 50  0001 C CNN
+	1    6900 3350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

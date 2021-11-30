@@ -6,4 +6,5 @@
   (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/Parts/SamacSys_Parts.lib)(options "")(descr ""))
   (lib (name STS1BuckBoost)(type Legacy)(uri ${KIPRJMOD}/STS1BuckBoost.lib)(options "")(descr ""))
   (lib (name STS1_DCDC)(type Legacy)(uri ${KIPRJMOD}/SpaceteamLib/STS1_DCDC.lib)(options "")(descr ""))
+  (lib (name STS1_3V3)(type Legacy)(uri ${KIPRJMOD}/Parts/KiCAD/2021-11-17_15-36-51/2021-11-17_15-36-51.lib)(options "")(descr ""))
 )

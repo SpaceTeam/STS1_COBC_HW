@@ -4,4 +4,5 @@
   (lib (name SamacSys_Parts)(type KiCad)(uri ${KIPRJMOD}/Parts/SamacSys_Parts.pretty)(options "")(descr ""))
   (lib (name STS1_DCDC)(type KiCad)(uri ${KIPRJMOD}/SpaceteamLib/STS1_DCDC.pretty)(options "")(descr ""))
   (lib (name STS1_RF)(type KiCad)(uri ${KIPRJMOD}/Parts/STS1_RF.pretty)(options "")(descr ""))
+  (lib (name STS1_3V3)(type KiCad)(uri ${KIPRJMOD}/Parts/KiCAD/2021-11-17_15-36-51/footprints.pretty)(options "")(descr ""))
 )
