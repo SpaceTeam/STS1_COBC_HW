@@ -177,7 +177,7 @@ Wire Wire Line
 	4400 2200 4500 2200
 Connection ~ 4400 2200
 Wire Wire Line
-	4400 2200 4400 2800
+	4400 2200 4400 2550
 Wire Wire Line
 	4400 1850 4500 1850
 Connection ~ 4400 1850
@@ -253,7 +253,7 @@ Wire Wire Line
 	8950 2500 8750 2500
 Connection ~ 8750 2500
 Wire Wire Line
-	8750 2500 8750 2900
+	8750 2500 8750 2650
 $Comp
 L Connector:Conn_01x01_Male J54
 U 1 1 6182DF07
@@ -296,4 +296,32 @@ Wire Wire Line
 	4950 2700 4950 2550
 Wire Wire Line
 	4950 2550 4700 2550
+$Comp
+L Connector:TestPoint TP6
+U 1 1 61B6C0DB
+P 4400 2550
+F 0 "TP6" V 4595 2622 50  0000 C CNN
+F 1 "TestPoint" V 4504 2622 50  0000 C CNN
+F 2 "STS1library:STS1_Testpoint" H 4600 2550 50  0001 C CNN
+F 3 "~" H 4600 2550 50  0001 C CNN
+	1    4400 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4400 2550
+Wire Wire Line
+	4400 2550 4400 2800
+$Comp
+L Connector:TestPoint TP7
+U 1 1 61B6DAE9
+P 8750 2650
+F 0 "TP7" V 8900 2800 50  0000 C CNN
+F 1 "TestPoint" V 8800 2800 50  0000 C CNN
+F 2 "STS1library:STS1_Testpoint" H 8950 2650 50  0001 C CNN
+F 3 "~" H 8950 2650 50  0001 C CNN
+	1    8750 2650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8750 2650
+Wire Wire Line
+	8750 2650 8750 2900
 $EndSCHEMATC

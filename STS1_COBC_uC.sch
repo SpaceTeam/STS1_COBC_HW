@@ -480,7 +480,7 @@ SPI4_NSS
 Wire Wire Line
 	6900 3650 8400 3650
 Wire Wire Line
-	6600 5300 6750 5300
+	6600 5300 6700 5300
 Wire Wire Line
 	5150 2000 5300 2000
 Wire Wire Line
@@ -511,34 +511,12 @@ Wire Wire Line
 	5400 6400 5800 6400
 Wire Wire Line
 	5800 6400 5800 5250
-$Comp
-L Connector:Conn_01x01_Male J31
-U 1 1 616CBBC3
-P 7100 3350
-F 0 "J31" H 6300 3350 50  0000 L CNN
-F 1 "Conn_01x01_Male" H 6400 3350 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 3350 50  0001 C CNN
-F 3 "~" H 7100 3350 50  0001 C CNN
-	1    7100 3350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10500 4050 10500 6200
 Wire Wire Line
 	6900 4050 10500 4050
 Wire Wire Line
 	6250 6200 10500 6200
-$Comp
-L Connector:Conn_01x01_Male J30
-U 1 1 61702BE6
-P 6300 7600
-F 0 "J30" H 6500 7450 50  0000 L CNN
-F 1 "Conn_01x01_Male" H 6200 7550 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6300 7600 50  0001 C CNN
-F 3 "~" H 6300 7600 50  0001 C CNN
-	1    6300 7600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6300 7400 6300 5250
 Wire Wire Line
@@ -548,7 +526,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 5150 4800 4550
 Wire Wire Line
-	6950 3050 6950 2850
+	6950 3050 6950 2950
 $Comp
 L Connector:Conn_01x01_Male J51
 U 1 1 61748D93
@@ -617,7 +595,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3550 1800 3550
 Text Label 5400 2350 1    50   ~ 0
-PB9
+PB8
 Text Label 5600 2350 1    50   ~ 0
 PB7
 Text Label 5700 2350 1    50   ~ 0
@@ -633,17 +611,6 @@ F 3 "~" H 1400 2950 50  0001 C CNN
 	1    1400 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x01_Male J44
-U 1 1 6177F2AE
-P 1400 2800
-F 0 "J44" H 600 2800 50  0000 L CNN
-F 1 "Conn_01x01_Male" H 700 2800 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2800 50  0001 C CNN
-F 3 "~" H 1400 2800 50  0001 C CNN
-	1    1400 2800
-	1    0    0    -1  
-$EndComp
 Text Label 1800 3100 0    50   ~ 0
 PB9
 Text Label 1800 2950 0    50   ~ 0
@@ -656,17 +623,6 @@ Wire Wire Line
 	1600 2950 1800 2950
 Wire Wire Line
 	1600 2800 1800 2800
-$Comp
-L Connector:Conn_01x01_Male J41
-U 1 1 617A65E0
-P 1400 2650
-F 0 "J41" H 600 2650 50  0000 L CNN
-F 1 "Conn_01x01_Male" H 700 2650 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2650 50  0001 C CNN
-F 3 "~" H 1400 2650 50  0001 C CNN
-	1    1400 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1600 2650 1800 2650
 $Comp
@@ -843,7 +799,7 @@ Wire Wire Line
 	2250 6500 2050 6500
 Connection ~ 2250 6500
 Wire Wire Line
-	2050 6500 2050 6850
+	2050 6500 2050 6550
 Connection ~ 2050 6500
 $Comp
 L power:GND #PWR?
@@ -999,8 +955,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 4050 4800 4050
 Wire Wire Line
-	5150 1100 5150 1150
-Wire Wire Line
 	6900 4550 7550 4550
 $Comp
 L Connector:Conn_01x01_Male J5
@@ -1016,20 +970,6 @@ $EndComp
 Connection ~ 7550 4550
 Wire Wire Line
 	7550 4550 7850 4550
-$Comp
-L Connector:Conn_01x01_Male J4
-U 1 1 6198D698
-P 5350 1150
-F 0 "J4" H 5250 1250 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 5322 1173 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5350 1150 50  0001 C CNN
-F 3 "~" H 5350 1150 50  0001 C CNN
-	1    5350 1150
-	-1   0    0    1   
-$EndComp
-Connection ~ 5150 1150
-Wire Wire Line
-	5150 1150 5150 2000
 Wire Wire Line
 	6800 5400 7050 5400
 Wire Wire Line
@@ -1260,7 +1200,7 @@ RF4463F30_SDN
 Wire Wire Line
 	3900 2150 5100 2150
 Wire Wire Line
-	4800 3050 4800 2250
+	4800 3050 4800 2350
 $Comp
 L STM32F411RET6TR:STM32F411RET6TR IC1
 U 1 1 61274132
@@ -1324,4 +1264,120 @@ Text HLabel 5800 2350 1    50   Input ~ 0
 SPI3_CS3
 Wire Wire Line
 	6900 4450 9750 4450
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61BEB8B5
+P 6900 3350
+F 0 "TP1" V 6900 3550 50  0000 L CNN
+F 1 "TestPoint" V 6900 3700 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 7100 3350 50  0001 C CNN
+F 3 "~" H 7100 3350 50  0001 C CNN
+	1    6900 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 1100 5150 1200
+$Comp
+L Connector:TestPoint TP4
+U 1 1 61B32C23
+P 5150 1200
+F 0 "TP4" V 5104 1388 50  0000 L CNN
+F 1 "TestPoint" V 5195 1388 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 5350 1200 50  0001 C CNN
+F 3 "~" H 5350 1200 50  0001 C CNN
+	1    5150 1200
+	0    1    1    0   
+$EndComp
+Connection ~ 5150 1200
+Wire Wire Line
+	5150 1200 5150 2000
+$Comp
+L Connector:TestPoint TP5
+U 1 1 61B34C92
+P 6300 7400
+F 0 "TP5" H 6242 7426 50  0000 R CNN
+F 1 "TestPoint" H 6242 7517 50  0000 R CNN
+F 2 "STS1library:STS1_Testpoint" H 6500 7400 50  0001 C CNN
+F 3 "~" H 6500 7400 50  0001 C CNN
+	1    6300 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 61B36800
+P 1600 2800
+F 0 "TP3" V 1600 3400 50  0000 C CNN
+F 1 "TestPoint" V 1600 3150 50  0000 C CNN
+F 2 "STS1library:STS1_Testpoint" H 1800 2800 50  0001 C CNN
+F 3 "~" H 1800 2800 50  0001 C CNN
+	1    1600 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61B3896D
+P 1600 2650
+F 0 "TP2" V 1600 3250 50  0000 C CNN
+F 1 "TestPoint" V 1600 3000 50  0000 C CNN
+F 2 "STS1library:STS1_Testpoint" H 1800 2650 50  0001 C CNN
+F 3 "~" H 1800 2650 50  0001 C CNN
+	1    1600 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 61B6F646
+P 6700 5300
+F 0 "TP14" H 6758 5418 50  0000 L CNN
+F 1 "TestPoint" H 6758 5327 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 6900 5300 50  0001 C CNN
+F 3 "~" H 6900 5300 50  0001 C CNN
+	1    6700 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6700 5300
+Wire Wire Line
+	6700 5300 6750 5300
+$Comp
+L Connector:TestPoint TP15
+U 1 1 61B70087
+P 6950 2950
+F 0 "TP15" V 6904 3138 50  0000 L CNN
+F 1 "TestPoint" V 6900 2800 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 7150 2950 50  0001 C CNN
+F 3 "~" H 7150 2950 50  0001 C CNN
+	1    6950 2950
+	0    1    1    0   
+$EndComp
+Connection ~ 6950 2950
+Wire Wire Line
+	6950 2950 6950 2850
+$Comp
+L Connector:TestPoint TP13
+U 1 1 61B70D95
+P 4800 2350
+F 0 "TP13" V 4754 2538 50  0000 L CNN
+F 1 "TestPoint" V 4750 2200 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 5000 2350 50  0001 C CNN
+F 3 "~" H 5000 2350 50  0001 C CNN
+	1    4800 2350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4800 2350
+Wire Wire Line
+	4800 2350 4800 2250
+$Comp
+L Connector:TestPoint TP12
+U 1 1 61B721D9
+P 2050 6550
+F 0 "TP12" V 1900 6600 50  0000 L CNN
+F 1 "TestPoint" V 2000 6400 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 2250 6550 50  0001 C CNN
+F 3 "~" H 2250 6550 50  0001 C CNN
+	1    2050 6550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2050 6550
+Wire Wire Line
+	2050 6550 2050 6850
 $EndSCHEMATC

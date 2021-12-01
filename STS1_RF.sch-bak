@@ -102,12 +102,12 @@ Wire Wire Line
 	2650 3200 2650 3100
 Connection ~ 2650 3100
 Wire Wire Line
-	2650 3100 2900 3100
+	2650 3100 2750 3100
 Wire Wire Line
 	2900 3200 2900 3100
 Connection ~ 2900 3100
 Wire Wire Line
-	2900 3100 3300 3100
+	2900 3100 3100 3100
 Text HLabel 4400 3800 2    50   Input ~ 0
 LoRa_SPI_CLK
 Text HLabel 4400 3700 2    50   Input ~ 0
@@ -157,7 +157,7 @@ F 3 "~" H 7250 3350 50  0001 C CNN
 $EndComp
 Connection ~ 7250 3200
 Wire Wire Line
-	7250 3200 7650 3200
+	7250 3200 7550 3200
 $Comp
 L Device:C C15
 U 1 1 612DBAA7
@@ -198,8 +198,6 @@ Wire Wire Line
 	7000 3200 7250 3200
 Text HLabel 7650 3800 0    50   Input ~ 0
 RF4463_nSEL
-Text HLabel 7650 3700 0    50   Input ~ 0
-RF4463_nIRQ
 Text HLabel 8750 3800 2    50   Input ~ 0
 RF4463_SDI
 Text HLabel 8750 3700 2    50   Input ~ 0
@@ -442,4 +440,37 @@ Wire Wire Line
 	2400 3500 3300 3500
 Text HLabel 7300 3950 3    50   Input ~ 0
 RF4463F30_SDN
+NoConn ~ 7650 3700
+NoConn ~ 4400 3500
+$Comp
+L Connector:TestPoint TP8
+U 1 1 61B6A550
+P 3100 3100
+F 0 "TP8" H 3050 3400 50  0000 L CNN
+F 1 "TestPoint" H 2950 3300 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 3300 3100 50  0001 C CNN
+F 3 "~" H 3300 3100 50  0001 C CNN
+	1    3100 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 3100
+Wire Wire Line
+	2750 3100 2900 3100
+$Comp
+L Connector:TestPoint TP9
+U 1 1 61B6AEF9
+P 7550 3200
+F 0 "TP9" H 7500 3500 50  0000 L CNN
+F 1 "TestPoint" H 7400 3400 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 7750 3200 50  0001 C CNN
+F 3 "~" H 7750 3200 50  0001 C CNN
+	1    7550 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 3200
+Wire Wire Line
+	7550 3200 7650 3200
+Connection ~ 3100 3100
+Wire Wire Line
+	3100 3100 3300 3100
 $EndSCHEMATC

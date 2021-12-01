@@ -440,7 +440,7 @@ $EndComp
 Wire Wire Line
 	9000 2600 9200 2600
 Wire Wire Line
-	9200 2600 9200 2250
+	9200 2600 9200 2300
 Wire Wire Line
 	9200 2250 8700 2250
 Wire Wire Line
@@ -637,4 +637,30 @@ F 3 "" H 10900 1400 50  0001 C CNN
 	1    10900 1400
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 61B6866A
+P 11150 1600
+F 0 "TP11" H 11092 1626 50  0000 R CNN
+F 1 "TestPoint" H 11092 1717 50  0000 R CNN
+F 2 "STS1library:STS1_Testpoint" H 11350 1600 50  0001 C CNN
+F 3 "~" H 11350 1600 50  0001 C CNN
+	1    11150 1600
+	-1   0    0    1   
+$EndComp
+Connection ~ 11150 1600
+$Comp
+L Connector:TestPoint TP10
+U 1 1 61B68D6F
+P 9200 2300
+F 0 "TP10" V 9154 2488 50  0000 L CNN
+F 1 "TestPoint" V 9245 2488 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 9400 2300 50  0001 C CNN
+F 3 "~" H 9400 2300 50  0001 C CNN
+	1    9200 2300
+	0    1    1    0   
+$EndComp
+Connection ~ 9200 2300
+Wire Wire Line
+	9200 2300 9200 2250
 $EndSCHEMATC
