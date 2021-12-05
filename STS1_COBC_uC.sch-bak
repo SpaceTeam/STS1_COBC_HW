@@ -595,7 +595,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3550 1800 3550
 Text Label 5400 2350 1    50   ~ 0
-PB9
+PB8
 Text Label 5600 2350 1    50   ~ 0
 PB7
 Text Label 5700 2350 1    50   ~ 0

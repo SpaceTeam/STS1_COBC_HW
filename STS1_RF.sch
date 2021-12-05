@@ -102,8 +102,6 @@ Wire Wire Line
 	2650 3200 2650 3100
 Connection ~ 2650 3100
 Wire Wire Line
-	2650 3100 2750 3100
-Wire Wire Line
 	2900 3200 2900 3100
 Connection ~ 2900 3100
 Wire Wire Line
@@ -258,7 +256,7 @@ L Device:R R13
 U 1 1 616A6F08
 P 3000 4500
 F 0 "R13" H 3070 4546 50  0000 L CNN
-F 1 "15" H 3070 4455 50  0000 L CNN
+F 1 "300" H 3070 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 4500 50  0001 C CNN
 F 3 "~" H 3000 4500 50  0001 C CNN
 	1    3000 4500
@@ -453,9 +451,6 @@ F 3 "~" H 3300 3100 50  0001 C CNN
 	1    3100 3100
 	1    0    0    -1  
 $EndComp
-Connection ~ 2750 3100
-Wire Wire Line
-	2750 3100 2900 3100
 $Comp
 L Connector:TestPoint TP9
 U 1 1 61B6AEF9
@@ -473,4 +468,6 @@ Wire Wire Line
 Connection ~ 3100 3100
 Wire Wire Line
 	3100 3100 3300 3100
+Wire Wire Line
+	2650 3100 2900 3100
 $EndSCHEMATC
