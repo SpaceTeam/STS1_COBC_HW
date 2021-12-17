@@ -1,0 +1,476 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STS1_COBC_RFM:LoRa126XF30 RF1
+U 1 1 612D3FCA
+P 3850 3450
+F 0 "RF1" H 3850 4025 50  0000 C CNN
+F 1 "LoRa1268F30" H 3850 3934 50  0000 C CNN
+F 2 "STS1_RF:LoRa1268F30" H 3850 3900 50  0001 C CNN
+F 3 "" H 3850 3900 50  0001 C CNN
+	1    3850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L STS1_COBC_RFM:RF4463F30 RF2
+U 1 1 612D4F50
+P 8200 3600
+F 0 "RF2" H 8200 4225 50  0000 C CNN
+F 1 "RF4463F30" H 8200 4134 50  0000 C CNN
+F 2 "STS1_RF:STS1_RF4463F30" H 8200 4100 50  0001 C CNN
+F 3 "" H 8200 4100 50  0001 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 2550 3100 0    50   Input ~ 0
+LoRa_VCC
+$Comp
+L power:GND #PWR0148
+U 1 1 612D703E
+P 3300 3800
+F 0 "#PWR0148" H 3300 3550 50  0001 C CNN
+F 1 "GND" H 3305 3672 50  0000 R CNN
+F 2 "" H 3300 3800 50  0001 C CNN
+F 3 "" H 3300 3800 50  0001 C CNN
+	1    3300 3800
+	1    0    0    -1  
+$EndComp
+Text HLabel 4650 3200 2    50   Input ~ 0
+LoRa_SMA_GND
+Text Notes 7300 2250 2    50   ~ 0
+ In LAYOUT, the GND (pin 15) next to the ANT (pin 16) pin cannot be directly connected to the \nground of the system. It can be connected to the GND of the external SMA socket\n\nEvtl LED an GPIOs hängen(OK von Peter)\n
+Wire Wire Line
+	2550 3100 2650 3100
+$Comp
+L Device:C C14
+U 1 1 612D80B3
+P 2900 3350
+F 0 "C14" H 2800 3450 50  0000 L CNN
+F 1 "47u" H 2800 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 3200 50  0001 C CNN
+F 3 "~" H 2900 3350 50  0001 C CNN
+	1    2900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 612D8225
+P 2650 3350
+F 0 "C13" H 2450 3450 50  0000 L CNN
+F 1 "100n" H 2500 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2688 3200 50  0001 C CNN
+F 3 "~" H 2650 3350 50  0001 C CNN
+	1    2650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0149
+U 1 1 612D8F9E
+P 2650 3500
+F 0 "#PWR0149" H 2650 3250 50  0001 C CNN
+F 1 "GND" H 2655 3327 50  0000 C CNN
+F 2 "" H 2650 3500 50  0001 C CNN
+F 3 "" H 2650 3500 50  0001 C CNN
+	1    2650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0150
+U 1 1 612D9513
+P 2900 3500
+F 0 "#PWR0150" H 2900 3250 50  0001 C CNN
+F 1 "GND" H 2905 3327 50  0000 C CNN
+F 2 "" H 2900 3500 50  0001 C CNN
+F 3 "" H 2900 3500 50  0001 C CNN
+	1    2900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3200 2650 3100
+Connection ~ 2650 3100
+Wire Wire Line
+	2650 3100 2750 3100
+Wire Wire Line
+	2900 3200 2900 3100
+Connection ~ 2900 3100
+Wire Wire Line
+	2900 3100 3100 3100
+Text HLabel 4400 3800 2    50   Input ~ 0
+LoRa_SPI_CLK
+Text HLabel 4400 3700 2    50   Input ~ 0
+LoRa_MISO
+Text HLabel 4400 3600 2    50   Input ~ 0
+LoRa_MOSI
+Text HLabel 3300 3700 0    50   Input ~ 0
+LoRa_NSS
+Text Notes 3600 2550 0    50   ~ 0
+Busy pin und DIO pins  (customizable digital I/O pins)\nWhen busy is high the host controller must wait to till the busy line is low to send another command\n
+Text HLabel 6900 3200 0    50   Input ~ 0
+RF4463_VCC
+$Comp
+L power:GND #PWR0152
+U 1 1 612DA405
+P 7500 3300
+F 0 "#PWR0152" H 7500 3050 50  0001 C CNN
+F 1 "GND" H 7505 3172 50  0000 R CNN
+F 2 "" H 7500 3300 50  0001 C CNN
+F 3 "" H 7500 3300 50  0001 C CNN
+	1    7500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0154
+U 1 1 612DAECB
+P 7650 3900
+F 0 "#PWR0154" H 7650 3650 50  0001 C CNN
+F 1 "GND" H 7655 3772 50  0000 R CNN
+F 2 "" H 7650 3900 50  0001 C CNN
+F 3 "" H 7650 3900 50  0001 C CNN
+	1    7650 3900
+	1    0    0    -1  
+$EndComp
+Text HLabel 9000 3300 2    50   Input ~ 0
+RF4463_ANT_GND
+$Comp
+L Device:C C16
+U 1 1 612DB4E1
+P 7250 3350
+F 0 "C16" H 7200 3350 50  0000 L CNN
+F 1 "47u" H 7200 3250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 3200 50  0001 C CNN
+F 3 "~" H 7250 3350 50  0001 C CNN
+	1    7250 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7250 3200
+Wire Wire Line
+	7250 3200 7550 3200
+$Comp
+L Device:C C15
+U 1 1 612DBAA7
+P 7000 3350
+F 0 "C15" H 6900 3350 50  0000 L CNN
+F 1 "100n" H 6950 3250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7038 3200 50  0001 C CNN
+F 3 "~" H 7000 3350 50  0001 C CNN
+	1    7000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0155
+U 1 1 612DBF97
+P 7000 3500
+F 0 "#PWR0155" H 7000 3250 50  0001 C CNN
+F 1 "GND" H 7005 3327 50  0000 C CNN
+F 2 "" H 7000 3500 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0156
+U 1 1 612DC2BC
+P 7250 3500
+F 0 "#PWR0156" H 7250 3250 50  0001 C CNN
+F 1 "GND" H 7255 3327 50  0000 C CNN
+F 2 "" H 7250 3500 50  0001 C CNN
+F 3 "" H 7250 3500 50  0001 C CNN
+	1    7250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3200 7000 3200
+Connection ~ 7000 3200
+Wire Wire Line
+	7000 3200 7250 3200
+Text HLabel 7650 3800 0    50   Input ~ 0
+RF4463_nSEL
+Text HLabel 8750 3800 2    50   Input ~ 0
+RF4463_SDI
+Text HLabel 8750 3700 2    50   Input ~ 0
+RF4463_SDO
+Text HLabel 8750 3900 2    50   Input ~ 0
+RF4463_SPI_CLK
+$Comp
+L Connector:Conn_Coaxial J39
+U 1 1 616A0FD1
+P 4650 3000
+F 0 "J39" H 4750 2975 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4750 2884 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 4650 3000 50  0001 C CNN
+F 3 " ~" H 4650 3000 50  0001 C CNN
+	1    4650 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3100 4450 3100
+Wire Wire Line
+	4450 3100 4450 3000
+Wire Wire Line
+	4650 3200 4400 3200
+$Comp
+L Connector:Conn_Coaxial J40
+U 1 1 616A364E
+P 9000 3050
+F 0 "J40" H 9100 3025 50  0000 L CNN
+F 1 "Conn_Coaxial" H 9100 2934 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 9000 3050 50  0001 C CNN
+F 3 " ~" H 9000 3050 50  0001 C CNN
+	1    9000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3050 8800 3200
+Wire Wire Line
+	8800 3200 8750 3200
+Wire Wire Line
+	8750 3300 9000 3300
+Wire Wire Line
+	9000 3300 9000 3250
+$Comp
+L Device:LED D5
+U 1 1 616A59D7
+P 3000 4100
+F 0 "D5" V 3039 3982 50  0000 R CNN
+F 1 "LED" V 2948 3982 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3000 4100 50  0001 C CNN
+F 3 "~" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 3600 3000 3600
+$Comp
+L Device:R R13
+U 1 1 616A6F08
+P 3000 4500
+F 0 "R13" H 3070 4546 50  0000 L CNN
+F 1 "15" H 3070 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 4500 50  0001 C CNN
+F 3 "~" H 3000 4500 50  0001 C CNN
+	1    3000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4250 3000 4350
+$Comp
+L power:GND #PWR0173
+U 1 1 616A7A03
+P 3000 4800
+F 0 "#PWR0173" H 3000 4550 50  0001 C CNN
+F 1 "GND" V 3005 4672 50  0000 R CNN
+F 2 "" H 3000 4800 50  0001 C CNN
+F 3 "" H 3000 4800 50  0001 C CNN
+	1    3000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4650 3000 4800
+Text Notes 3250 4500 0    50   ~ 0
+Blaue LED\n3V typ / 20mA typ 
+Wire Wire Line
+	3000 3600 3000 3950
+Wire Wire Line
+	7650 3600 7300 3600
+Wire Wire Line
+	7300 3600 7300 3950
+$Comp
+L power:GND #PWR0110
+U 1 1 6168C756
+P 5450 3400
+F 0 "#PWR0110" H 5450 3150 50  0001 C CNN
+F 1 "GND" V 5455 3272 50  0000 R CNN
+F 2 "" H 5450 3400 50  0001 C CNN
+F 3 "" H 5450 3400 50  0001 C CNN
+	1    5450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2800 2900 3100
+Wire Wire Line
+	4400 3300 5450 3300
+$Comp
+L power:GND #PWR0111
+U 1 1 6168E6D9
+P 5200 4250
+F 0 "#PWR0111" H 5200 4000 50  0001 C CNN
+F 1 "GND" V 5205 4122 50  0000 R CNN
+F 2 "" H 5200 4250 50  0001 C CNN
+F 3 "" H 5200 4250 50  0001 C CNN
+	1    5200 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4150 5150 4150
+Wire Wire Line
+	5150 4150 5150 3400
+Wire Wire Line
+	5150 3400 4400 3400
+Wire Wire Line
+	5300 3900 5300 2800
+Wire Wire Line
+	5300 2800 2900 2800
+Wire Wire Line
+	8750 3500 9950 3500
+Wire Wire Line
+	9950 3500 9950 3250
+Wire Wire Line
+	9950 3250 10100 3250
+$Comp
+L power:GND #PWR022
+U 1 1 6189A724
+P 10450 3800
+F 0 "#PWR022" H 10450 3550 50  0001 C CNN
+F 1 "GND" V 10455 3672 50  0000 R CNN
+F 2 "" H 10450 3800 50  0001 C CNN
+F 3 "" H 10450 3800 50  0001 C CNN
+	1    10450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 6189AD3E
+P 10100 3350
+F 0 "#PWR021" H 10100 3100 50  0001 C CNN
+F 1 "GND" H 10300 3250 50  0000 R CNN
+F 2 "" H 10100 3350 50  0001 C CNN
+F 3 "" H 10100 3350 50  0001 C CNN
+	1    10100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3600 9750 3600
+Wire Wire Line
+	9750 3600 9750 3700
+Wire Wire Line
+	9750 3700 10450 3700
+$Comp
+L power:GND #PWR016
+U 1 1 6187DFBD
+P 3200 3200
+F 0 "#PWR016" H 3200 2950 50  0001 C CNN
+F 1 "GND" H 3200 3050 50  0000 R CNN
+F 2 "" H 3200 3200 50  0001 C CNN
+F 3 "" H 3200 3200 50  0001 C CNN
+	1    3200 3200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3300 3300
+NoConn ~ 3300 3400
+NoConn ~ 8750 3400
+NoConn ~ 7650 3400
+NoConn ~ 7650 3500
+Wire Wire Line
+	3300 3200 3200 3200
+Wire Wire Line
+	7650 3300 7500 3300
+Text HLabel 10100 3150 1    50   Input ~ 0
+RF4463F30_GPIO0
+Text HLabel 10450 3600 0    50   Input ~ 0
+RF4463F30_GPIO1
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 61B38DDD
+P 5400 4150
+F 0 "J7" H 5372 4082 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5372 4173 50  0000 R CNN
+F 2 "STS1library:PinHeader_1x03_P2.54mm_Vertical_umdieEcke" H 5400 4150 50  0001 C CNN
+F 3 "~" H 5400 4150 50  0001 C CNN
+	1    5400 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3900 5200 3900
+Wire Wire Line
+	5200 3900 5200 4050
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 61B3D41B
+P 5650 3300
+F 0 "J8" H 5550 3350 50  0000 C CNN
+F 1 "Conn_01x03_Male" V 5450 3300 50  0000 C CNN
+F 2 "STS1library:PinHeader_1x03_P2.54mm_Vertical_umdieEcke" H 5650 3300 50  0001 C CNN
+F 3 "~" H 5650 3300 50  0001 C CNN
+	1    5650 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 2800 5450 2800
+Wire Wire Line
+	5450 2800 5450 3200
+Connection ~ 5300 2800
+$Comp
+L Connector:Conn_01x03_Male J11
+U 1 1 61B3F95D
+P 10650 3700
+F 0 "J11" H 10550 3750 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 10300 3650 50  0000 C CNN
+F 2 "STS1library:PinHeader_1x03_P2.54mm_Vertical_umdieEcke" H 10650 3700 50  0001 C CNN
+F 3 "~" H 10650 3700 50  0001 C CNN
+	1    10650 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J10
+U 1 1 61B41394
+P 10300 3250
+F 0 "J10" H 10200 3300 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 9850 3250 50  0000 C CNN
+F 2 "STS1library:PinHeader_1x03_P2.54mm_Vertical_umdieEcke" H 10300 3250 50  0001 C CNN
+F 3 "~" H 10300 3250 50  0001 C CNN
+	1    10300 3250
+	-1   0    0    1   
+$EndComp
+Text HLabel 2400 3500 0    50   Input ~ 0
+LoRa_NRESET
+Wire Wire Line
+	2400 3500 3300 3500
+Text HLabel 7300 3950 3    50   Input ~ 0
+RF4463F30_SDN
+NoConn ~ 7650 3700
+NoConn ~ 4400 3500
+$Comp
+L Connector:TestPoint TP8
+U 1 1 61B6A550
+P 3100 3100
+F 0 "TP8" H 3050 3400 50  0000 L CNN
+F 1 "TestPoint" H 2950 3300 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 3300 3100 50  0001 C CNN
+F 3 "~" H 3300 3100 50  0001 C CNN
+	1    3100 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 3100
+Wire Wire Line
+	2750 3100 2900 3100
+$Comp
+L Connector:TestPoint TP9
+U 1 1 61B6AEF9
+P 7550 3200
+F 0 "TP9" H 7500 3500 50  0000 L CNN
+F 1 "TestPoint" H 7400 3400 50  0000 L CNN
+F 2 "STS1library:STS1_Testpoint" H 7750 3200 50  0001 C CNN
+F 3 "~" H 7750 3200 50  0001 C CNN
+	1    7550 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 3200
+Wire Wire Line
+	7550 3200 7650 3200
+Connection ~ 3100 3100
+Wire Wire Line
+	3100 3100 3300 3100
+$EndSCHEMATC
