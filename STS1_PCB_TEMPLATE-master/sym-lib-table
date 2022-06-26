@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name STS-con)(type Legacy)(uri ${KIPRJMOD}/STS1_PCB_LIBRARIES/STSLib/STS-con.lib)(options "")(descr "")(disabled))
-  (lib (name STS1_template-rescue)(type Legacy)(uri ${KIPRJMOD}/STS1_template-rescue.lib)(options "")(descr ""))
-)
