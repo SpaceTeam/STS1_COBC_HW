@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CY15B108QN-40SXI-CY15B108QN-40SXI
+F https://www.cypress.com/file/444186/download
+$ENDCMP
+#
+$CMP STM32F411RET6TR-STM32F411RET6TR
+F https://www.st.com/resource/en/datasheet/stm32f411re.pdf
+$ENDCMP
+#
+$CMP W25Q01JVZEIQ-W25Q01JVZEIQ
+F https://4donline.ihs.com/images/VipMasterIC/IC/WBND/WBND-S-A0009189314/WBND-S-A0009189314-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
+#End Doc Library

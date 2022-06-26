@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32F411RET6TR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=64
+Version=1.1
+Released=2018-09-13 12:04:29
+Downloaded=2021-08-07 11:46:14
+3D=Y

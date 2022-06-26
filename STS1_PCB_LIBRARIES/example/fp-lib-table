@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "STS_Inductor_SMD")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprint/STS_Inductor_SMD.pretty")(options "")(descr ""))
+  (lib (name "STS_Logo")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprint/STS_Logo.pretty")(options "")(descr ""))
+  (lib (name "STS_Package_DFN_QFN")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprint/STS_Package_DFN_QFN.pretty")(options "")(descr ""))
+  (lib (name "STS_Package_LGA")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprint/STS_Package_LGA.pretty")(options "")(descr ""))
+  (lib (name "STS_RF")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprint/STS_RF.pretty")(options "")(descr ""))
+)

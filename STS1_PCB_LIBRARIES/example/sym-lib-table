@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "STS_Regulator_Switching")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/STS_Regulator_Switching.kicad_sym")(options "")(descr ""))
+  (lib (name "STS_RF_Module")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/STS_RF_Module.kicad_sym")(options "")(descr ""))
+  (lib (name "STS_Sensor_Optical")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/STS_Sensor_Optical.kicad_sym")(options "")(descr ""))
+)
