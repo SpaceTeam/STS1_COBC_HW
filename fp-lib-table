@@ -12,4 +12,5 @@
   (lib (name "STS_Inductor_SMD")(type "KiCad")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/footprint/STS_Inductor_SMD.pretty")(options "")(descr ""))
   (lib (name "STS1library")(type "KiCad")(uri "${KIPRJMOD}/STS1library.pretty")(options "")(descr ""))
   (lib (name "STSLib")(type "KiCad")(uri "${KIPRJMOD}/STSLib")(options "")(descr ""))
+  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/footprint")(options "")(descr ""))
 )

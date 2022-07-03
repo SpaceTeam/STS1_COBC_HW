@@ -450,16 +450,16 @@
       "COBC STM"
     ],
     [
-      "52ff08cc-e556-4916-a4fa-1dda46252a2c",
-      "COBC RF"
-    ],
-    [
       "a46d312b-dd2f-4abc-96c6-0d07e3b62af2",
       "COBC VR"
     ],
     [
       "84f560e8-9e41-456d-855b-05514565ce57",
       "DCDC"
+    ],
+    [
+      "a8678e8a-595e-4c52-9d87-4220609965c5",
+      "COBC_old_RF"
     ],
     [
       "e5cf9a39-1c8e-4339-9d68-ed39db77ca10",
