@@ -13,4 +13,5 @@
   (lib (name "STS1library")(type "KiCad")(uri "${KIPRJMOD}/STS1library.pretty")(options "")(descr ""))
   (lib (name "STSLib")(type "KiCad")(uri "${KIPRJMOD}/STSLib")(options "")(descr ""))
   (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/footprint")(options "")(descr ""))
+  (lib (name "lsf-kicad-lib")(type "KiCad")(uri "${KIPRJMOD}/lsf-kicad-lib/lsf-kicad-lib.pretty")(options "")(descr ""))
 )

@@ -468,6 +468,8 @@
     (uuid f1c1f50e-f13a-4dd0-8a75-853a6c8910eb)
   )
 
+  (no_connect (at 186.69 88.9) (uuid 718570b2-75dc-4499-81d6-c62c32814bd5))
+
   (wire (pts (xy 83.82 80.01) (xy 87.63 80.01))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0e1f122b-72d6-4d32-aa82-6ab283104a75)
