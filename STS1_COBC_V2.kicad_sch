@@ -331,6 +331,7 @@
   )
 
 
+
   (bus_entry (at 255.27 43.18) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0078ffff-803b-4798-8b80-5dd9f562d0f1)
@@ -598,6 +599,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 85358187-7347-470b-8bfe-9132eb8e79dc)
   )
+  (wire (pts (xy 45.72 74.93) (xy 45.72 88.9))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 85dd4c43-3035-45db-937d-63629447ef89)
+  )
   (wire (pts (xy 36.83 115.57) (xy 54.61 115.57))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8691ee3b-49b3-4ebd-9a98-3e018fa65a68)
@@ -626,6 +631,10 @@
   (wire (pts (xy 201.93 102.87) (xy 204.47 102.87))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 93898b78-e924-4e04-9df6-e3bdaebaaa28)
+  )
+  (wire (pts (xy 246.38 97.79) (xy 248.92 97.79))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 94f961af-39d8-442c-876f-b70eb40318d1)
   )
   (wire (pts (xy 41.91 48.26) (xy 44.45 48.26))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -678,6 +687,10 @@
     (uuid aa9f7413-25ee-4999-8c52-581e967cd286)
   )
 
+  (wire (pts (xy 41.91 88.9) (xy 45.72 88.9))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid aba4b9fd-c70f-47ef-8489-53cfeb49ff37)
+  )
   (wire (pts (xy 73.66 62.23) (xy 77.47 62.23))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid acb6d669-dcc4-4809-968f-4f19f2924971)
@@ -791,6 +804,10 @@
     (uuid f422de4e-414c-4a4e-b8f5-527464bd2b81)
   )
 
+  (wire (pts (xy 41.91 74.93) (xy 45.72 74.93))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid f8b49902-bf86-4b91-85c2-120fe3a54905)
+  )
   (wire (pts (xy 246.38 31.75) (xy 255.27 31.75))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fc2a4144-87d0-4be0-9f80-d6c7b2dcbce6)
@@ -851,6 +868,10 @@
   (label "UART_COBC_EDU_1" (at 201.93 73.66 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 358f7a09-b465-4d6f-9fb3-8ecae1eaf4ce)
+  )
+  (label "EPS_BAT_FAULT" (at 41.91 88.9 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 37f729b0-c651-4254-921e-97c354f89f95)
   )
   (label "EPS_BAT_GOOD" (at 201.93 110.49 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1003,6 +1024,10 @@
   (label "Si4463_nSEL" (at 54.61 142.24 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c23c625b-3c15-48cc-bd76-d95526a904db)
+  )
+  (label "EPS_BAT_FAULT" (at 248.92 97.79 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c2adf9c7-2e57-49f6-88b0-946476e1cc37)
   )
   (label "PA_FAULT" (at 53.34 157.48 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1760,10 +1785,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid b0fbd5a3-603f-4638-a32d-6a497ad27b34)
     )
-    (pin "SPI4_NSS" input (at 246.38 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 1792850b-dab0-4acf-a8b2-e80ce00b0a91)
-    )
     (pin "RF4463F30_SDN" input (at 204.47 63.5 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6d225d17-fbe4-4ba0-a9fb-c4bee0b38f82)
@@ -1827,6 +1848,10 @@
     (pin "PA_FAULT" input (at 246.38 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f781be6d-3679-4255-94ee-741ad74d399a)
+    )
+    (pin "EPS_BAT_FAULT" input (at 246.38 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid fe949505-4c70-4202-b47b-82542fb83a04)
     )
   )
 
@@ -2610,9 +2635,6 @@
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061b1fd7d"
       (reference "J17") (unit 1) (value "Conn_01x03_Male") (footprint "STS1library:PinHeader_1x03_P2.54mm_Vertical_umdieEcke")
     )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006198ba28"
-      (reference "J18") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
-    )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/80af458f-c7a5-433b-9df7-795777bcc769"
       (reference "L1") (unit 1) (value "15n") (footprint "Inductor_SMD:L_0402_1005Metric")
     )
@@ -2819,15 +2841,6 @@
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/6a5058f2-5e04-44ab-bf53-f2c58ae126d9"
       (reference "TP17") (unit 1) (value "TestPoint") (footprint "STS1library:STS1_Testpoint")
-    )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/f740de66-7842-48d1-8854-c13cd53c0ed3"
-      (reference "TP18") (unit 1) (value "TestPoint") (footprint "STS1library:STS1_Testpoint")
-    )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/e6a5633f-c6ca-43a7-bac0-3d0810684409"
-      (reference "TP19") (unit 1) (value "TestPoint") (footprint "STS1library:STS1_Testpoint")
-    )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/f0e16474-b13c-47ba-bf3e-2283d8e78b8f"
-      (reference "TP20") (unit 1) (value "TestPoint") (footprint "STS1library:STS1_Testpoint")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/5020136b-5eea-4a2f-9bc4-470d670f3f42/6f0f2ebc-d1a8-4058-9e41-80284bd55907"
       (reference "TP21") (unit 1) (value "5V_PA") (footprint "lsf-kicad-lib:TestPoint_D0.8mm_Mask-Only")
