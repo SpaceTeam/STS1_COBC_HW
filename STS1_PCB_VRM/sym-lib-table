@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name "STS-con")(type "Legacy")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/STSLib/STS-con.lib")(options "")(descr ""))
-  (lib (name "STS1_DCDC")(type "Legacy")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/SpaceteamLib/STS1_DCDC.lib")(options "")(descr ""))
-  (lib (name "STS1_VRM-rescue")(type "Legacy")(uri "${KIPRJMOD}/STS1_VRM-rescue.lib")(options "")(descr ""))
-)
