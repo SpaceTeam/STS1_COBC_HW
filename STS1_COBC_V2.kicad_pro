@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -218,7 +218,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.128,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
@@ -518,8 +518,8 @@
       "idf": "",
       "netlist": "STS1_template.net",
       "specctra_dsn": "",
-      "step": "../../Renders/STS1_COBC_V2.step",
-      "vrml": ""
+      "step": "Rendering/STS1_COBC_V2.step",
+      "vrml": "Rendering/STS1_COBC_V2.wrl"
     },
     "page_layout_descr_file": ""
   },
