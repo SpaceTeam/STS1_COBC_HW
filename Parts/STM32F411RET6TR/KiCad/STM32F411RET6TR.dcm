@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F411RET6TR
+D ARM Microcontrollers - MCU High-performance access line, ARM Cortex-M4 core with DSP and FPU, 512 Kbytes Flash, 100 MHz CPU, ART Accelerator
+K
+F https://www.st.com/resource/en/datasheet/stm32f411re.pdf
+$ENDCMP
+#
+#End Doc Library

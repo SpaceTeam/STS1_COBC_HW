@@ -1,0 +1,18 @@
+.MCP1725-3302E_SN :1 ;500mA CMOS LDO,Vo=3.3V,,MCP1725-3302E/SN
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="VIN_1" 2="VIN_2" 3="'SHDN'" 4="GND" 5="PWRGD" 6="CDELAY" 7="SENSE" 8="VOUT"
+*MXP 8
+*DFN MCP1725-3302E_SN
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP1725-3302E/SN)
+~!Mouser Part Number (579-MCP1725-3302E/SN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1725-3302E-SN?qs=usxtMOJb1RwUUJ1wgWMM%2Fw%3D%3D)
+~!Arrow Part Number (MCP1725-3302E/SN)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mcp1725-3302esn/microchip-technology)
+~!Link Datasheet (http://ww1.microchip.com/downloads/en/DeviceDoc/22026b.pdf)
+~!Height (1.75mm)
+~!3D_Model (MCP1725-3302E_SN)
+MCP1725-3302E_SN
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
