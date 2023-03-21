@@ -2642,7 +2642,7 @@
       (reference "C78") (unit 1) (value "3.3p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/84f560e8-9e41-456d-855b-05514565ce57/0915a923-ed3d-4139-8c37-11f2b770cc90"
-      (reference "C79") (unit 1) (value "100nF") (footprint "")
+      (reference "C79") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000059c45183/00000000-0000-0000-0000-00006179b797"
       (reference "CSBI_1") (unit 1) (value "~") (footprint "Connector_PinSocket_2.00mm:PinSocket_2x25_P2.00mm_Vertical")
