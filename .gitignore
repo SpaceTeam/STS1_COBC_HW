@@ -1,1 +1,18 @@
 STS1_COBC_V2-backups
+
+# Origin: https://github.com/github/gitignore/blob/main/KiCad.gitignore
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
