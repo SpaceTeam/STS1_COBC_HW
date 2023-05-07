@@ -2066,7 +2066,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6f4a0f4d-e0b8-44b7-b033-c6669f53a6bb)
   )
-  (hierarchical_label "DCDC_nEN" (shape input) (at 137.16 58.42 90)
+  (hierarchical_label "RDT_CLR" (shape input) (at 137.16 58.42 90)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 777be712-070c-4203-8281-d5adda0f7c63)
   )
