@@ -10391,7 +10391,7 @@
   (gr_arc (start 197.1 122.3) (mid 195.781981 125.481981) (end 192.6 126.8) (layer "Edge.Cuts") (width 0.15) (tstamp 95246a2d-04d9-4321-a6a9-c19fa836de16))
   (gr_line (start 120.6 126.8) (end 192.6 126.8) (layer "Edge.Cuts") (width 0.15) (tstamp a02ac974-cc56-4aa5-b948-2200a8659b41))
   (gr_line (start 116.1 46.3) (end 116.1 122.3) (layer "Edge.Cuts") (width 0.15) (tstamp dcb6c0cf-74c9-41e2-a5cd-a360f1587c4e))
-  (gr_text "TU Wien Space Team STS1\nCOBC\nV2.5" (at 177.187 69.3315) (layer "F.SilkS") (tstamp 08ddd705-9a0c-48ac-9b1f-0c74c485fc45)
+  (gr_text "TU Wien Space Team STS1\nCOBC\nV2.6" (at 177.187 69.3315) (layer "F.SilkS") (tstamp 08ddd705-9a0c-48ac-9b1f-0c74c485fc45)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (gr_text "PC1" (at 160.43254 121.7) (layer "F.SilkS") (tstamp 0b5fd799-f98d-406a-8f29-022fd935a184)
