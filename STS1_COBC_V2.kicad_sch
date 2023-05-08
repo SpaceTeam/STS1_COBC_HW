@@ -2765,10 +2765,10 @@
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/414403b0-0605-46ee-af87-f83db4abd417"
       (reference "D8") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
-    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/8422e768-fe2b-43fa-87fd-771b6f4b8af2"
+    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/8f376f38-f57d-4c6b-94cd-d6f0937cc156"
       (reference "D9") (unit 1) (value "BAS70H") (footprint "Diode_SMD:D_SOD-123F")
     )
-    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/de0d6f58-9080-40d2-b51d-9e5e05d89e63"
+    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/841c7339-5465-445b-8dd1-7a028f4da727"
       (reference "D10") (unit 1) (value "BAS70H") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/5020136b-5eea-4a2f-9bc4-470d670f3f42/ee13059c-4243-43cc-a1cb-962be7eb3ace"
