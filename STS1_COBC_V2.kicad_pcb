@@ -470,16 +470,16 @@
 
   (footprint "STS_connector:Coordinates" (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-0000602f3133)
-    (at 122.8 55.4255)
+    (at 123.339 55.1075 90)
     (property "Sheetfile" "STS1_COBC_V2.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-0000602f576d")
     (attr through_hole)
-    (fp_text reference "U1" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "U1" (at 0 0 90) (layer "F.SilkS") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
       (tstamp 76565e4c-53a2-46e3-8128-da5bafc49ce4)
     )
-    (fp_text value "coordinate_system" (at 0.75 0) (layer "F.SilkS") hide
+    (fp_text value "coordinate_system" (at 0.75 0 90) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp 2aa03d23-3268-4ec3-b8bf-aa462e90f435)
     )
