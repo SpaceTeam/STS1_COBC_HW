@@ -2111,9 +2111,6 @@
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/da062ca1-36d7-422b-b054-c34dfc0e1028"
       (reference "#PWR040") (unit 1) (value "GND") (footprint "")
     )
-    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/6bdc5ca0-01c4-4cef-ae75-d366e2549c42"
-      (reference "#PWR041") (unit 1) (value "GND") (footprint "")
-    )
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/479ad715-dc5f-448b-8992-368e3c72418b"
       (reference "#PWR042") (unit 1) (value "GND") (footprint "")
     )
@@ -2769,10 +2766,10 @@
       (reference "D8") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/8422e768-fe2b-43fa-87fd-771b6f4b8af2"
-      (reference "D9") (unit 1) (value "BAS70H") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D9") (unit 1) (value "BAS70H") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/de0d6f58-9080-40d2-b51d-9e5e05d89e63"
-      (reference "D10") (unit 1) (value "BAS70H") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D10") (unit 1) (value "BAS70H") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/5020136b-5eea-4a2f-9bc4-470d670f3f42/ee13059c-4243-43cc-a1cb-962be7eb3ace"
       (reference "FB1") (unit 1) (value "Ferrite_Bead") (footprint "Inductor_SMD:L_0603_1608Metric")
