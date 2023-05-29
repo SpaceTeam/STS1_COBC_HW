@@ -7,7 +7,7 @@
   (lib (name "STS1_DCDC")(type "KiCad")(uri "${KIPRJMOD}/SpaceteamLib/STS1_DCDC.kicad_sym")(options "")(descr ""))
   (lib (name "STS1_3V3")(type "KiCad")(uri "${KIPRJMOD}/Parts/KiCAD/2021-11-17_15-36-51/2021-11-17_15-36-51.kicad_sym")(options "")(descr ""))
   (lib (name "MCP1725-3302E_SN")(type "KiCad")(uri "${KIPRJMOD}/SpaceteamLib/MCP1725-3302E_SN/KiCad/MCP1725-3302E_SN.kicad_sym")(options "")(descr ""))
-  (lib (name "STS1_COBC_V2-rescue")(type "KiCad")(uri "${KIPRJMOD}/STS1_COBC_V2-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "STS1_COBC_V2-rescue")(type "KiCad")(uri "${KIPRJMOD}/STS1_COBC-rescue.kicad_sym")(options "")(descr ""))
   (lib (name "STS_Regulator_Switching")(type "KiCad")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/symbol/STS_Regulator_Switching.kicad_sym")(options "")(descr ""))
   (lib (name "STS_RF_Module")(type "KiCad")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/symbol/STS_RF_Module.kicad_sym")(options "")(descr ""))
   (lib (name "STS_Sensor_Optical")(type "KiCad")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/symbol/STS_Sensor_Optical.kicad_sym")(options "")(descr ""))
