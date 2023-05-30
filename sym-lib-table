@@ -12,5 +12,5 @@
   (lib (name "STS_RF_Module")(type "KiCad")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/symbol/STS_RF_Module.kicad_sym")(options "")(descr ""))
   (lib (name "STS_Sensor_Optical")(type "KiCad")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/symbol/STS_Sensor_Optical.kicad_sym")(options "")(descr ""))
   (lib (name "STS-connector")(type "KiCad")(uri "${KIPRJMOD}/STS1_PCB_LIBRARIES/symbol/STS-connector.kicad_sym")(options "")(descr ""))
-  (lib (name "lsf-kicad-lib")(type "KiCad")(uri "${KIPRJMOD}/lsf-kicad-lib/lsf-kicad.kicad_sym")(options " pwr_sym_only")(descr ""))
+  (lib (name "lsf-kicad-lib")(type "KiCad")(uri "${KIPRJMOD}/lsf-kicad-lib/lsf-kicad.kicad_sym")(options "")(descr ""))
 )
