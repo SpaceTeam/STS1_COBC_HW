@@ -1194,7 +1194,6 @@
     )
   )
 
-
   (junction (at 82.55 176.53) (diameter 0) (color 0 0 0 0)
     (uuid 0acb3ccb-09c0-4213-a5ac-d25e6e1c4f04)
   )
@@ -3161,7 +3160,7 @@
     (property "Value" "F2972" (id 1) (at 228.6 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_DFN_QFN:IDT_NEG12_1EP_2x2mm_P0.5mm_EP1.1x1.1mm_ThermalVias" (id 2) (at 246.38 123.19 0)
+    (property "Footprint" "lsf-kicad-lib:IDT_NEG-12-1EP_2x2mm_P0.5mm_EP1.1x1.1mm_ThermalVias" (id 2) (at 246.38 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.idt.com/document/dst/f2972-datasheet" (id 3) (at 227.33 135.89 0)

@@ -257,28 +257,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|1612900|381000|b832c707-8efd-47d1-81c5-de13c4c5d5e4|fa43b16d-c5ea-4844-a491-bd8d8b9646bf",
-      "multiple_net_names|1689100|914400|db941567-d956-4a3e-9ce1-5514499028a1|506ebe99-4dc1-43fa-9a00-4559ec94cafb",
-      "multiple_net_names|2667000|469900|516114fc-545c-4aa8-9b3f-a8c7411a156e|44d9b3f4-6e0f-43d4-9cf6-d312f74b3454",
-      "multiple_net_names|2667000|495300|bcff82ff-74e3-4fe8-9d98-266a4979c440|a6e8ba45-aa9e-41c8-9cec-6d4c4095c51e",
-      "multiple_net_names|2667000|520700|f4b42be2-500c-4002-8c8c-7091a8e81ab4|69efcdb7-f396-487c-945e-10b5abe5082f",
-      "no_connect_connected|1866900|584200|36e448dc-e67c-4bba-a275-20f69c54bc7e|7e380889-1050-4f1f-8c0f-e5e14e90750c",
-      "no_connect_connected|977900|762000|67756876-3bf8-4bb3-8c9b-e3ca65d108b2|963025c2-ff60-4ee9-8605-35bc21d9b056",
-      "no_connect_connected|977900|787400|aeea4865-5c60-4c1f-9c44-8e8857ec4387|6f67df90-be94-46c0-930a-d023305b7204",
-      "no_connect_connected|977900|812800|e483ba18-c2bc-4e6c-85b5-d78cbba8e3ec|3b171ba7-0a4b-4e17-a591-7300be188964",
-      "no_connect_connected|977900|838200|b4270ccb-1c53-4d25-95dc-d0a7ac748b68|d2747a4a-9cab-496e-8489-1870660a3996",
-      "pin_to_pin|1054100|685800|ce2d1eb8-66bc-47c5-8bd4-450360bf2fa4|573d5ffc-267e-4eb6-a08f-ed9e48401e75",
-      "pin_to_pin|1181100|965200|78deb625-000b-4e6e-91f4-fa7d6b75f66c|60a0b99e-91e6-4cfc-a4c7-3b8ad9140eaa",
-      "pin_to_pin|1282700|660400|573d5ffc-267e-4eb6-a08f-ed9e48401e75|2f8d85c8-953a-410c-8444-cf41bdeace12",
-      "pin_to_pin|1282700|660400|573d5ffc-267e-4eb6-a08f-ed9e48401e75|c1c3ee4c-4a52-4730-8379-4d896c6fb09e",
-      "pin_to_pin|1282700|660400|573d5ffc-267e-4eb6-a08f-ed9e48401e75|ce2d1eb8-66bc-47c5-8bd4-450360bf2fa4",
-      "pin_to_pin|1282700|660400|573d5ffc-267e-4eb6-a08f-ed9e48401e75|ebfbd230-0b20-4eff-a82a-b7c5f194ebe2",
-      "pin_to_pin|1282700|965200|57b4d596-3ba8-4f75-8d66-7fa80d0e3311|60a0b99e-91e6-4cfc-a4c7-3b8ad9140eaa",
-      "power_pin_not_driven|1333500|457200|5e550f11-f90a-43dc-ae52-56265108fa5c|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|241300|1651000|d1e75cc1-6d5e-43e9-a56e-4cdec7b3206f|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|520700|1651000|f7508e73-8b8c-421b-998f-8032e37f58bf|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
