@@ -1,3 +1,6 @@
 [submodule "STS1_PCB_LIBRARIES"]
 	path = STS1_PCB_LIBRARIES
 	url = git@github.com:SpaceTeam/STS1_PCB_LIBRARIES.git
+[submodule "lsf-kicad-lib"]
+	path = lsf-kicad-lib
+	url = https://gitlab.com/librespacefoundation/lsf-kicad-lib.git
