@@ -257,7 +257,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|2667000|469900|516114fc-545c-4aa8-9b3f-a8c7411a156e|44d9b3f4-6e0f-43d4-9cf6-d312f74b3454",
+      "multiple_net_names|2667000|495300|bcff82ff-74e3-4fe8-9d98-266a4979c440|a6e8ba45-aa9e-41c8-9cec-6d4c4095c51e",
+      "multiple_net_names|2667000|520700|f4b42be2-500c-4002-8c8c-7091a8e81ab4|69efcdb7-f396-487c-945e-10b5abe5082f"
+    ],
     "meta": {
       "version": 0
     },
@@ -466,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STS1_COBC_V2.kicad_pro",
+    "filename": "STS1_COBC.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -584,7 +588,7 @@
     ],
     [
       "a8678e8a-595e-4c52-9d87-4220609965c5",
-      "COBC_old_RF"
+      "COBC_RF"
     ],
     [
       "5020136b-5eea-4a2f-9bc4-470d670f3f42",
