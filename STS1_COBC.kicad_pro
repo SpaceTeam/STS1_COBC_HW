@@ -460,8 +460,8 @@
       "idf": "",
       "netlist": "STS1_template.net",
       "specctra_dsn": "",
-      "step": "Rendering/STS1_COBC_V2.step",
-      "vrml": "Rendering/STS1_COBC_V2.wrl"
+      "step": "STS1_COBC.step",
+      "vrml": "STS1_COBC.wrl"
     },
     "page_layout_descr_file": ""
   },
