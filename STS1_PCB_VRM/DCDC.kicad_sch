@@ -1024,7 +1024,7 @@
     (property "Datasheet" "~" (id 3) (at 187.96 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part" "7447706047 " (id 4) (at 187.96 68.58 90))
+    (property "PartNumber" "7447706047 " (id 4) (at 187.96 68.58 90))
     (pin "1" (uuid 89e965a3-09a8-4be2-8204-83b66de930ec))
     (pin "2" (uuid e7ea84d5-5e8e-42fe-9838-995db11a3bce))
   )
