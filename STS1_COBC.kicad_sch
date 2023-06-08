@@ -2602,6 +2602,9 @@
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/841c7339-5465-445b-8dd1-7a028f4da727"
       (reference "D10") (unit 1) (value "BAS70H") (footprint "Diode_SMD:D_SOD-123F")
     )
+    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/fdb9af79-ab4a-4a50-a349-00dcf3e3d6f1"
+      (reference "DIS_RDT1") (unit 1) (value "~{RDT}") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/5020136b-5eea-4a2f-9bc4-470d670f3f42/ee13059c-4243-43cc-a1cb-962be7eb3ace"
       (reference "FB1") (unit 1) (value "Ferrite_Bead") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
@@ -2688,9 +2691,6 @@
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061b1fd7d"
       (reference "J17") (unit 1) (value "Boot0") (footprint "STS1library:PinHeader_1x03_P2.54mm_Vertical_umdieEcke")
-    )
-    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/fdb9af79-ab4a-4a50-a349-00dcf3e3d6f1"
-      (reference "JP2") (unit 1) (value "~{RDT}") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/80af458f-c7a5-433b-9df7-795777bcc769"
       (reference "L1") (unit 1) (value "33n") (footprint "Inductor_SMD:L_0402_1005Metric")

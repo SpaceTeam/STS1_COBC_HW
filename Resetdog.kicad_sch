@@ -1165,7 +1165,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 148.59 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fdb9af79-ab4a-4a50-a349-00dcf3e3d6f1)
-    (property "Reference" "JP2" (id 0) (at 151.13 121.9199 90)
+    (property "Reference" "DIS_RDT1" (id 0) (at 151.13 121.9199 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~{RDT}" (id 1) (at 151.13 125.0949 90)
