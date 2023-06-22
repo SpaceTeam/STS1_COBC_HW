@@ -2642,12 +2642,6 @@
     (path "/00000000-0000-0000-0000-0000602e5e41"
       (reference "H4") (unit 1) (value "MH") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
     )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061674186"
-      (reference "IC2") (unit 1) (value "STWD100PYW83F") (footprint "SamacSys_Parts:SOT65P210X110-5N")
-    )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061274132"
-      (reference "IC3") (unit 1) (value "STM32F411RET6TR") (footprint "STSLib:QFP50P1200X1200X160-64N")
-    )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/00000000-0000-0000-0000-0000616a364e"
       (reference "J1") (unit 1) (value "UHF") (footprint "Connector_Coaxial:SMB_Jack_Vertical")
     )
@@ -2950,6 +2944,12 @@
     )
     (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5f08"
       (reference "U17") (unit 1) (value "CY15B108QN-40SXI") (footprint "STSLib:SOIC127P800X203-8N")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061674186"
+      (reference "U18") (unit 1) (value "STWD100PYW83F") (footprint "SamacSys_Parts:SOT65P210X110-5N")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061274132"
+      (reference "U19") (unit 1) (value "STM32F411RET6TR") (footprint "STSLib:QFP50P1200X1200X160-64N")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006254c1e3"
       (reference "Y1") (unit 1) (value "12M") (footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm")
