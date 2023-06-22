@@ -1343,7 +1343,7 @@
   (symbol (lib_id "STS-connector:coordinate_system") (at 81.28 20.32 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602f576d)
-    (property "Reference" "U1" (id 0) (at 88.9 15.24 90)
+    (property "Reference" "CS1" (id 0) (at 88.9 15.24 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "coordinate_system" (id 1) (at 104.14 25.4 90)
@@ -2566,6 +2566,9 @@
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/c9430d1d-1f09-4161-82c7-680bf655cb15"
       (reference "C83") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-0000602f576d"
+      (reference "CS1") (unit 1) (value "coordinate_system") (footprint "STS_connector:Coordinates")
+    )
     (path "/00000000-0000-0000-0000-000059c45183/00000000-0000-0000-0000-00006179b797"
       (reference "CSBI_1") (unit 1) (value "~") (footprint "Connector_PinSocket_2.00mm:PinSocket_2x25_P2.00mm_Vertical")
     )
@@ -2632,12 +2635,6 @@
     (path "/00000000-0000-0000-0000-0000618302de"
       (reference "FID8") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm")
     )
-    (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5631"
-      (reference "FLASH1") (unit 1) (value "W25Q01JVZEIQ") (footprint "STSLib:SON127P800X600X80-9N-D")
-    )
-    (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5f08"
-      (reference "FRAM1") (unit 1) (value "CY15B108QN-40SXI") (footprint "STSLib:SOIC127P800X203-8N")
-    )
     (path "/00000000-0000-0000-0000-0000602e546e"
       (reference "H1") (unit 1) (value "MH") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
     )
@@ -2649,12 +2646,6 @@
     )
     (path "/00000000-0000-0000-0000-0000602e5e41"
       (reference "H4") (unit 1) (value "MH") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
-    )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061674186"
-      (reference "IC2") (unit 1) (value "STWD100PYW83F") (footprint "SamacSys_Parts:SOT65P210X110-5N")
-    )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061274132"
-      (reference "IC3") (unit 1) (value "STM32F411RET6TR") (footprint "STSLib:QFP50P1200X1200X160-64N")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/00000000-0000-0000-0000-0000616a364e"
       (reference "J1") (unit 1) (value "UHF") (footprint "Connector_Coaxial:SMB_Jack_Vertical")
@@ -2902,8 +2893,8 @@
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061b6f646"
       (reference "TP13") (unit 1) (value "3V3") (footprint "STS1library:STS1_Testpoint")
     )
-    (path "/00000000-0000-0000-0000-0000602f576d"
-      (reference "U1") (unit 1) (value "coordinate_system") (footprint "STS_connector:Coordinates")
+    (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5631"
+      (reference "U1") (unit 1) (value "W25Q01JVZEIQ") (footprint "STSLib:SON127P800X600X80-9N-D")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/8e389f53-343f-464a-adff-0fef404f38e7"
       (reference "U2") (unit 1) (value "LP2985-1.8") (footprint "Package_TO_SOT_SMD:SOT-23-5")
@@ -2949,6 +2940,15 @@
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/49bffa8a-87f0-4100-a3cc-f350b4a97cc4"
       (reference "U16") (unit 1) (value "F2972") (footprint "lsf-kicad-lib:IDT_NEG-12-1EP_2x2mm_P0.5mm_EP1.1x1.1mm_ThermalVias")
+    )
+    (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5f08"
+      (reference "U17") (unit 1) (value "CY15B108QN-40SXI") (footprint "STSLib:SOIC127P800X203-8N")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061674186"
+      (reference "U18") (unit 1) (value "STWD100PYW83F") (footprint "SamacSys_Parts:SOT65P210X110-5N")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061274132"
+      (reference "U19") (unit 1) (value "STM32F411RET6TR") (footprint "STSLib:QFP50P1200X1200X160-64N")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006254c1e3"
       (reference "Y1") (unit 1) (value "12M") (footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm")
