@@ -1138,7 +1138,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 17.78 15.24 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602e47b3)
     (property "Reference" "FID1" (id 0) (at 19.939 14.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1155,7 +1155,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 33.02 15.24 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602e4ce1)
     (property "Reference" "FID2" (id 0) (at 35.179 14.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1172,7 +1172,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 48.26 15.24 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602e4f2b)
     (property "Reference" "FID3" (id 0) (at 50.419 14.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1189,7 +1189,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 62.23 15.24 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602e5011)
     (property "Reference" "FID4" (id 0) (at 64.389 14.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1206,7 +1206,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 17.78 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602e546e)
     (property "Reference" "H1" (id 0) (at 20.32 26.6954 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1224,7 +1224,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 26.67 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602e5764)
     (property "Reference" "H2" (id 0) (at 29.21 26.6954 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1242,7 +1242,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 35.56 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602e5ae8)
     (property "Reference" "H3" (id 0) (at 38.1 26.6954 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1260,7 +1260,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 44.45 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602e5e41)
     (property "Reference" "H4" (id 0) (at 46.99 26.6954 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1342,7 +1342,7 @@
   )
 
   (symbol (lib_id "STS-connector:coordinate_system") (at 81.28 20.32 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602f576d)
     (property "Reference" "CS1" (id 0) (at 88.9 15.24 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1359,7 +1359,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 17.78 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000618302cc)
     (property "Reference" "FID5" (id 0) (at 19.939 19.1516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1376,7 +1376,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 33.02 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000618302d2)
     (property "Reference" "FID6" (id 0) (at 35.179 19.1516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1393,7 +1393,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 48.26 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000618302d8)
     (property "Reference" "FID7" (id 0) (at 50.419 19.1516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1410,7 +1410,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 62.23 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000618302de)
     (property "Reference" "FID8" (id 0) (at 64.389 19.1516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2630,12 +2630,6 @@
     (path "/00000000-0000-0000-0000-0000618302de"
       (reference "FID8") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm")
     )
-    (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5631"
-      (reference "FLASH1") (unit 1) (value "W25Q01JVZEIQ") (footprint "STSLib:SON127P800X600X80-9N-D")
-    )
-    (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5f08"
-      (reference "FRAM1") (unit 1) (value "CY15B108QN-40SXI") (footprint "STSLib:SOIC127P800X203-8N")
-    )
     (path "/00000000-0000-0000-0000-0000602e546e"
       (reference "H1") (unit 1) (value "MH") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
     )
@@ -2906,6 +2900,9 @@
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061b6f646"
       (reference "TP13") (unit 1) (value "3V3") (footprint "STS1library:STS1_Testpoint")
     )
+    (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5631"
+      (reference "U1") (unit 1) (value "W25Q01JVZEIQ") (footprint "STSLib:SON127P800X600X80-9N-D")
+    )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/8e389f53-343f-464a-adff-0fef404f38e7"
       (reference "U2") (unit 1) (value "LP2985-1.8") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
@@ -2950,6 +2947,9 @@
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/49bffa8a-87f0-4100-a3cc-f350b4a97cc4"
       (reference "U16") (unit 1) (value "F2972") (footprint "lsf-kicad-lib:IDT_NEG-12-1EP_2x2mm_P0.5mm_EP1.1x1.1mm_ThermalVias")
+    )
+    (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5f08"
+      (reference "U17") (unit 1) (value "CY15B108QN-40SXI") (footprint "STSLib:SOIC127P800X203-8N")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006254c1e3"
       (reference "Y1") (unit 1) (value "12M") (footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm")

@@ -760,7 +760,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 128.27 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b68d6f)
     (property "Reference" "TP5" (id 0) (at 127.1016 73.9648 90)
       (effects (font (size 1.27 1.27)) (justify left))
