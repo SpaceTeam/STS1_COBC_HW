@@ -7,7 +7,7 @@
   (title_block
     (title "STS1 COBC HW")
     (date "08.05.2023")
-    (rev "2.6")
+    (rev "3.0")
     (company "TU Wien Space Team")
   )
 
@@ -329,7 +329,6 @@
       )
     )
   )
-
 
   (junction (at 251.46 41.91) (diameter 0) (color 0 0 0 0)
     (uuid 4c073cfe-1e57-4fca-9b48-5dbd11edd23f)
