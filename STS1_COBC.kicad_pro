@@ -57,8 +57,11 @@
       ],
       "drc_exclusions": [
         "clearance|137275000|51625000|2a239f7d-7570-4661-b7d5-3fd716e196dd|aad1f62f-9797-4cd3-a20e-e82669848b90",
+        "clearance|137275000|51625000|aad1f62f-9797-4cd3-a20e-e82669848b90|2a239f7d-7570-4661-b7d5-3fd716e196dd",
         "clearance|137875000|50775000|2a239f7d-7570-4661-b7d5-3fd716e196dd|47fb26d0-f12d-434f-b2c4-d83f6e5e6630",
-        "clearance|137875000|52225000|2a239f7d-7570-4661-b7d5-3fd716e196dd|f87a2b04-ffb2-4580-8a7c-1a42484ebe4a"
+        "clearance|137875000|50775000|47fb26d0-f12d-434f-b2c4-d83f6e5e6630|2a239f7d-7570-4661-b7d5-3fd716e196dd",
+        "clearance|137875000|52225000|2a239f7d-7570-4661-b7d5-3fd716e196dd|f87a2b04-ffb2-4580-8a7c-1a42484ebe4a",
+        "clearance|137875000|52225000|f87a2b04-ffb2-4580-8a7c-1a42484ebe4a|2a239f7d-7570-4661-b7d5-3fd716e196dd"
       ],
       "meta": {
         "filename": "board_design_settings.json",
