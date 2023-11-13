@@ -1338,7 +1338,7 @@
       (net 22 "Net-(C14-Pad2)") (pinfunction "3") (pintype "passive") (tstamp 0162ac71-1625-43c3-8c7c-374cc5d6179b))
     (pad "4" smd rect (at -1.65 -1 270) (size 1.6 1.3) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 153 "GND") (pinfunction "4") (pintype "passive") (tstamp 64ad72ad-947f-462b-b204-dceac8d61d3a))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-4Pin_5.0x3.2mm.wrl"
+    (model "${KIPRJMOD}/STSLib/405C35B12M00000.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4166,10 +4166,10 @@
       (net 153 "GND") (pinfunction "Ext") (pintype "passive") (tstamp a3e642df-d7c2-41ce-b4c4-3192dd057bc4))
     (pad "2" thru_hole circle (at -2.54 -2.54 90) (size 2.74 2.74) (drill 1.7) (layers *.Cu *.Mask)
       (net 153 "GND") (pinfunction "Ext") (pintype "passive") (tstamp e671606c-b30d-476f-9cd6-3b6950d82c0e))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMB_Jack_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/STSLib/61612002121503.stp"
+      (offset (xyz 0 0 -4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 0 0))
     )
   )
 
@@ -5846,10 +5846,10 @@
       (net 104 "Net-(C32-Pad1)") (pinfunction "OUT") (pintype "output") (tstamp d127396d-2e54-4ed0-a8bb-f5eaa2b998a1))
     (pad "4" smd rect (at -0.875 -0.7 90) (size 1.15 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 37 "Net-(C28-Pad1)") (pinfunction "VDD") (pintype "power_in") (tstamp 5cc8b4b4-5f08-4abc-b2af-9126f819752f))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2520-4Pin_2.5x2.0mm.wrl"
+    (model "${KIPRJMOD}/STSLib/ECS-2033-250-BN.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -6693,6 +6693,11 @@
       (net 9 "VBUS") (pinfunction "K") (pintype "passive") (tstamp 6e2217b4-8658-4a9d-a0f9-b2b1f1c5f380))
     (pad "2" smd rect (at 0 0.6125) (size 1 0.625) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 153 "GND") (pinfunction "A") (pintype "passive") (tstamp 4f984f04-b1d2-4d24-845d-254b337280ec))
+    (model "${KIPRJMOD}/STSLib/UCLAMP0871P.TNT.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
