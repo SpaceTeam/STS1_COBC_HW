@@ -842,7 +842,7 @@
     (property "Reference" "R39" (id 0) (at 129.54 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "220K" (id 1) (at 129.54 93.9799 0)
+    (property "Value" "220k" (id 1) (at 129.54 93.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 125.222 92.71 90)

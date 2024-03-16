@@ -343,7 +343,6 @@
     (uuid e679cac9-5a22-41f9-82c2-680c4062f66c)
   )
 
-  (no_connect (at 63.5 97.79) (uuid d2f9dc04-c67c-4fc7-9e8d-5bee3b1b49d7))
   (no_connect (at 109.22 73.66) (uuid f53d0fb6-7866-4864-86fa-d83bc88221c2))
 
   (wire (pts (xy 222.25 76.2) (xy 224.79 76.2))
