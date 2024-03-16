@@ -330,6 +330,7 @@
     )
   )
 
+
   (junction (at 251.46 41.91) (diameter 0) (color 0 0 0 0)
     (uuid 4c073cfe-1e57-4fca-9b48-5dbd11edd23f)
   )
@@ -3394,8 +3395,8 @@
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/3065dd86-0f26-417b-a772-a87b8cd10684"
       (reference "U28") (unit 1) (value "MCP130T-300I_TT") (footprint "Package_TO_SOT_SMD:SOT-23-3")
     )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/493e36cf-33ca-4762-b6a4-5ba9da18418e"
-      (reference "U29") (unit 1) (value "NC7SZ32P5X-F22057") (footprint "STSLib:SOT65P210X110-5N")
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/239fe01b-5072-4191-8cfe-4c3b351a1811"
+      (reference "U29") (unit 1) (value "74LVC1G08GV,125") (footprint "STSLib:SOT95P275X110-5N")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/767f449e-9616-4a18-a0a7-1d1ce5567d7b"
       (reference "U30") (unit 1) (value "TMP36xS") (footprint "Package_TO_SOT_SMD:SOT-23-5")
