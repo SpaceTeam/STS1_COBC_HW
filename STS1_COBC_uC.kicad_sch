@@ -1137,7 +1137,6 @@
   )
 
   (no_connect (at 175.26 92.71) (uuid 096a73d7-5855-4f85-aec0-b9d67ed35259))
-  (no_connect (at 121.92 95.25) (uuid 890a3f1c-b5bb-4651-afac-84018ec2aab2))
   (no_connect (at 175.26 87.63) (uuid 9ce49419-e81b-4a32-b834-cf7946d715b0))
   (no_connect (at 121.92 113.03) (uuid cccd9d84-530e-44e7-8b82-491b9d52d947))
   (no_connect (at 250.19 48.26) (uuid f60bc40a-ea0e-4e96-be8f-55107cd0fb35))
@@ -1916,6 +1915,10 @@
   (hierarchical_label "USART1_TX" (shape output) (at 165.1 59.69 90)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 360c0390-7fee-4cb8-b874-0b64fbfbbf65)
+  )
+  (hierarchical_label "RF_TMP" (shape input) (at 121.92 95.25 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3987d518-049d-45c2-bed0-9a0a88b07320)
   )
   (hierarchical_label "Flash_CS" (shape output) (at 133.35 158.75 180)
     (effects (font (size 1.27 1.27)) (justify right))

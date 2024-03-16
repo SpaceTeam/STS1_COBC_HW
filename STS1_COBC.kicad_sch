@@ -542,6 +542,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 36323269-c18b-4dd8-a77e-f76fa80d5d09)
   )
+  (wire (pts (xy 246.38 93.218) (xy 271.78 93.218))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 3676ea96-4898-4875-bde5-26807abc1995)
+  )
   (wire (pts (xy 187.96 95.25) (xy 204.47 95.25))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3a83858a-2013-46ce-a3da-9998d3f879b7)
@@ -836,6 +840,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cd1da80c-a182-48cd-972b-a1e8e1430346)
   )
+  (wire (pts (xy 57.15 164.084) (xy 73.66 164.084))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid cda47bdf-8f3c-410a-bd93-dda31c91a597)
+  )
   (wire (pts (xy 204.47 120.65) (xy 187.96 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ced876c8-a319-4778-b840-6b7b12d13f62)
@@ -1115,6 +1123,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9903b3fb-05df-4f9b-b9c1-4e34c27b9376)
   )
+  (label "RF_TMP" (at 271.78 93.218 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 9a239854-2c41-426d-9dea-ed314f1662f6)
+  )
   (label "~{WDT_Trig}" (at 187.96 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9bb13c58-6c74-4def-8acf-f4b3a0f3dd9e)
@@ -1218,6 +1230,10 @@
   (label "DCDC_~{Enable}" (at 187.96 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ece51fb7-cc17-4c94-bb67-6ac0a4984b04)
+  )
+  (label "RF_TMP" (at 73.66 164.084 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid ef495476-87b2-46fd-933a-2c5a641e72a0)
   )
   (label "EPS_SPI.CLK" (at 266.7 44.45 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1685,14 +1701,14 @@
     )
   )
 
-  (sheet (at 15.24 116.84) (size 41.91 45.72) (fields_autoplaced)
+  (sheet (at 15.24 116.84) (size 41.91 50.419) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid a8678e8a-595e-4c52-9d87-4220609965c5)
     (property "Sheet name" "COBC_RF" (id 0) (at 15.24 116.1284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "STS1_RF.kicad_sch" (id 1) (at 15.24 163.1446 0)
+    (property "Sheet file" "STS1_RF.kicad_sch" (id 1) (at 15.24 167.8436 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "RF_3V3" input (at 57.15 119.38 0)
@@ -1750,6 +1766,10 @@
     (pin "WDT_Clear" input (at 57.15 160.02 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid c03b8035-2934-4a00-a1f8-b11173d12116)
+    )
+    (pin "RF_TMP" output (at 57.15 164.084 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c714d2d4-c000-4a33-a6fb-f85f6c7ab607)
     )
   )
 
@@ -1970,6 +1990,10 @@
     (pin "RF_LATCHUP_DIS" input (at 246.38 90.932 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3438885a-b9d2-4576-920a-fc1ae122a13e)
+    )
+    (pin "RF_TMP" input (at 246.38 93.218 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid b0844a52-f2e4-4049-bc64-84f969a99c1a)
     )
   )
 
@@ -2196,6 +2220,12 @@
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/436cf492-2f93-4823-b7c1-04123c6500d4"
       (reference "#PWR060") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a8678e8a-595e-4c52-9d87-4220609965c5/cd099c17-a0a4-402b-a9aa-914e9e9f9e8d"
+      (reference "#PWR061") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a8678e8a-595e-4c52-9d87-4220609965c5/41d4b675-42ca-442a-aab2-5eabf608d38f"
+      (reference "#PWR062") (unit 1) (value "GND") (footprint "")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006130e947"
       (reference "#PWR066") (unit 1) (value "GND") (footprint "")
@@ -2779,6 +2809,9 @@
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/364061b9-2483-4f4b-8695-f4fec6c0202a"
       (reference "C93") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/a8678e8a-595e-4c52-9d87-4220609965c5/8fc4107a-a59b-4fbb-8f6b-a53c3a9995d7"
+      (reference "C94") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-0000602f576d"
       (reference "CS1") (unit 1) (value "coordinate_system") (footprint "STS_connector:Coordinates")
     )
@@ -3321,6 +3354,9 @@
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/493e36cf-33ca-4762-b6a4-5ba9da18418e"
       (reference "U29") (unit 1) (value "NC7SZ32P5X-F22057") (footprint "STSLib:SOT65P210X110-5N")
+    )
+    (path "/a8678e8a-595e-4c52-9d87-4220609965c5/767f449e-9616-4a18-a0a7-1d1ce5567d7b"
+      (reference "U30") (unit 1) (value "TMP36xS") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006254c1e3"
       (reference "Y1") (unit 1) (value "12M") (footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm")
