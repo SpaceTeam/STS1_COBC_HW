@@ -3359,7 +3359,7 @@
       (reference "U16") (unit 1) (value "F2972") (footprint "lsf-kicad-lib:IDT_NEG-12-1EP_2x2mm_P0.5mm_EP1.1x1.1mm_ThermalVias")
     )
     (path "/ac6659d3-0531-4d8c-b6db-7e3a6843f21e/00000000-0000-0000-0000-0000612a5f08"
-      (reference "U17") (unit 1) (value "CY15B108QN-40SXI") (footprint "STSLib:SOIC127P800X203-8N")
+      (reference "U17") (unit 1) (value "CY15B104Q-SXI") (footprint "STSLib:SOIC127P800X203-8N")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061674186"
       (reference "U18") (unit 1) (value "STWD100PYW83F") (footprint "SamacSys_Parts:SOT65P210X110-5N")
