@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.9
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|137275000|51625000|aad1f62f-9797-4cd3-a20e-e82669848b90|2a239f7d-7570-4661-b7d5-3fd716e196dd",
+        "clearance|137875000|50775000|47fb26d0-f12d-434f-b2c4-d83f6e5e6630|2a239f7d-7570-4661-b7d5-3fd716e196dd",
+        "clearance|137875000|52225000|f87a2b04-ffb2-4580-8a7c-1a42484ebe4a|2a239f7d-7570-4661-b7d5-3fd716e196dd"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -113,7 +117,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.128,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
@@ -140,6 +144,10 @@
         {
           "diameter": 0.4,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
