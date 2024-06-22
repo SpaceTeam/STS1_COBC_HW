@@ -2855,7 +2855,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 133.35 175.26 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 0857d13f-5321-40cd-b835-a1fb2852f50a)
     (property "Reference" "TP8" (id 0) (at 129.54 173.99 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3185,7 +3185,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 76.2 100.33 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 7438805a-522f-4aa3-80a7-e31fb1bc70fd)
     (property "Reference" "TP9" (id 0) (at 72.39 99.06 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3369,7 +3369,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 133.35 156.21 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid a487fe78-c7bb-4baf-838d-f5a423189737)
     (property "Reference" "TP1" (id 0) (at 130.3528 154.7368 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3405,7 +3405,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 133.35 168.91 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid c354965c-e906-43c3-a980-f447dacddae6)
     (property "Reference" "TP3" (id 0) (at 129.54 167.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3462,7 +3462,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 133.35 162.56 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid d46436d3-9ce5-4cbc-9267-20f0fe0e68b3)
     (property "Reference" "TP2" (id 0) (at 129.54 161.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3519,7 +3519,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 76.2 107.95 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid e7695b39-8200-4eaa-84bb-5fd7977e0e05)
     (property "Reference" "TP10" (id 0) (at 72.39 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3560,7 +3560,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 213.36 99.06 270) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid eb1af013-e0af-4b4c-a355-9109c04754b9)
     (property "Reference" "TP11" (id 0) (at 217.17 97.79 90)
       (effects (font (size 1.27 1.27)) (justify left))
