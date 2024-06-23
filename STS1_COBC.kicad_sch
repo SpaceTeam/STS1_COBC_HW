@@ -2071,6 +2071,9 @@
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/84f560e8-9e41-456d-855b-05514565ce57/80fe4e20-036a-4fe5-b1d6-5c0d1564e4e2"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/a0c6f363-c0bd-4f66-81ac-ee929e47d3d9"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/84f560e8-9e41-456d-855b-05514565ce57/b166e6d2-94cf-4ce2-b5bc-da61151fd6b0"
       (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
@@ -2224,7 +2227,7 @@
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/9c75bc78-5c78-4cb4-818c-701842716e84"
       (reference "#PWR053") (unit 1) (value "GND") (footprint "")
     )
-    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/85e5ab20-a340-40a2-bb31-d030e38310e2"
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/ec6a1422-810c-4491-b5f8-d272bd5cf797"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061ab9189"
@@ -2475,6 +2478,12 @@
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/f94975cb-02c3-40a6-93e4-d639225b1c8c"
       (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/41e710b3-dccf-44fa-a622-581809a98aac"
+      (reference "#PWR0161") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/a9df335a-766b-41d1-80ed-7debdaaedc13"
+      (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/e2e75022-4046-446f-b5c2-3303457a29c4"
       (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
@@ -2851,6 +2860,9 @@
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/e3d83310-f71d-4feb-ad27-45b0af32424e/cc07afc5-61cf-4ecd-869a-c9b9350daa9a"
       (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
     )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/31441210-3f24-43d3-a4cf-18118195c585"
+      (reference "D3") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SOD-123")
+    )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/84f560e8-9e41-456d-855b-05514565ce57/fa6ba5bd-134e-4af8-aad5-7ad144ce22a3"
       (reference "D4") (unit 1) (value "AQ1003-01LTG ") (footprint "Diode_SMD:D_SOD-523")
     )
@@ -2907,6 +2919,15 @@
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/7c61aa55-3846-401c-b2ea-088fc470b137/aa8fb927-ec64-4bc2-bc65-71e32fde302a"
       (reference "D22") (unit 1) (value "BZX84C10") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/4fe92a7d-feb3-434e-b302-891c4870cfbf"
+      (reference "D23") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/c4241f03-9ff3-49a5-8192-12d5681db1e4"
+      (reference "D24") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/cdb90a99-6b4d-4161-a084-49e111cde102"
+      (reference "D25") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/fdb9af79-ab4a-4a50-a349-00dcf3e3d6f1"
       (reference "DIS_RDT1") (unit 1) (value "~{RDT}") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
@@ -3042,9 +3063,6 @@
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/e3d83310-f71d-4feb-ad27-45b0af32424e/d2f123c5-0d53-4fa2-b53c-5352d0bd33a1"
       (reference "Q7") (unit 1) (value "BSL307SP") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
-    )
-    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/3c02d65f-4ad2-4eff-a9c3-11e5b6520cfd"
-      (reference "Q8") (unit 1) (value "BSL307SP") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/7c61aa55-3846-401c-b2ea-088fc470b137/dbcde1a5-d84f-4c0d-9220-8a80ce412096"
       (reference "Q9") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
