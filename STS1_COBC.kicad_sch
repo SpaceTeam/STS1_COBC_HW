@@ -2485,6 +2485,9 @@
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/a9df335a-766b-41d1-80ed-7debdaaedc13"
       (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
     )
+    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/cd180320-299a-4c4d-bf43-68c2be104953"
+      (reference "#PWR0163") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/e2e75022-4046-446f-b5c2-3303457a29c4"
       (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
     )
@@ -2536,6 +2539,9 @@
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/eac7276d-dfc7-47f5-8b19-9defdb557ae5"
       (reference "#PWR0180") (unit 1) (value "GND") (footprint "")
     )
+    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/1f632dcb-cfd3-4293-ace7-8ce655379a3b"
+      (reference "#PWR0181") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/5020136b-5eea-4a2f-9bc4-470d670f3f42/6a1fa528-a0e0-4325-a77b-78a67d671f9e"
       (reference "#PWR0182") (unit 1) (value "GND") (footprint "")
     )
@@ -2565,12 +2571,6 @@
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/5020136b-5eea-4a2f-9bc4-470d670f3f42/78323470-21db-44d9-a0a4-a37672e66dc2"
       (reference "#PWR0191") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/1f632dcb-cfd3-4293-ace7-8ce655379a3b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/cd180320-299a-4c4d-bf43-68c2be104953"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/00000000-0000-0000-0000-0000612dbaa7"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2856,6 +2856,12 @@
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/84f560e8-9e41-456d-855b-05514565ce57/eebc1e63-bbf4-4b73-8c81-afd3e3fcc4d3"
       (reference "C95") (unit 1) (value "47n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/dcded66c-1ead-4b41-a554-9f48f1546549"
+      (reference "C96") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/fdcee863-b022-4e47-bfbe-6eb56aa24fda"
+      (reference "C97") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000602f576d"
       (reference "CS1") (unit 1) (value "coordinate_system") (footprint "STS_connector:Coordinates")
