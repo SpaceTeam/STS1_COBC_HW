@@ -2572,6 +2572,9 @@
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/5020136b-5eea-4a2f-9bc4-470d670f3f42/78323470-21db-44d9-a0a4-a37672e66dc2"
       (reference "#PWR0191") (unit 1) (value "GND") (footprint "")
     )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/3b252fde-f73f-4612-97fb-880ce3d1e193"
+      (reference "#PWR0192") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/00000000-0000-0000-0000-0000612dbaa7"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -3303,6 +3306,9 @@
     )
     (path "/00000000-0000-0000-0000-000059c45183/b07ddacd-66a7-46c1-b21c-5d56ffcc0431"
       (reference "R73") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/96f49954-5b12-4e52-b26a-081f92ad0324"
+      (reference "R74") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/a487fe78-c7bb-4baf-838d-f5a423189737"
       (reference "TP1") (unit 1) (value "CS") (footprint "STS1library:STS1_Testpoint")
