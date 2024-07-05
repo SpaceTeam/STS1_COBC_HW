@@ -2260,14 +2260,23 @@
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/28bfd378-01a7-4bbe-baf2-df4c1aa6504a"
       (reference "#PWR064") (unit 1) (value "GND") (footprint "")
     )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/2835c69f-6092-49fc-8856-56bd4f1d17e0"
+      (reference "#PWR065") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006130e947"
       (reference "#PWR066") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/066ab16f-0f47-43c6-a495-3866dc0f90d4"
+      (reference "#PWR067") (unit 1) (value "GND") (footprint "")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006130e0cc"
       (reference "#PWR068") (unit 1) (value "GND") (footprint "")
     )
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/2114c7a2-319e-4aff-bd16-4cee0ff4d1e9"
       (reference "#PWR069") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/08483ee4-aeb7-4d1e-8b11-b29719586b9c"
+      (reference "#PWR070") (unit 1) (value "GND") (footprint "")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-000061712cb3"
       (reference "#PWR071") (unit 1) (value "+3V3") (footprint "")
@@ -2881,6 +2890,9 @@
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/6b1dab76-cc3c-4927-a886-9b2bc0392869"
       (reference "C98") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/b28bf212-5d42-4b6d-acc4-b31122cdec92"
+      (reference "C99") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-0000602f576d"
       (reference "CS1") (unit 1) (value "coordinate_system") (footprint "STS_connector:Coordinates")
     )
@@ -3456,6 +3468,9 @@
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/a2914216-3ac0-46e2-86c7-32d722bba1ea"
       (reference "U31") (unit 1) (value "74LVC1G08GV,125") (footprint "STSLib:SOT95P275X110-5N")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/336cb7b4-1233-400a-9213-cb74017b480c"
+      (reference "U32") (unit 1) (value "74LVC1G32GV,125 ") (footprint "STSLib:SOT95P275X110-5N")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006254c1e3"
       (reference "Y1") (unit 1) (value "12M") (footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm")
