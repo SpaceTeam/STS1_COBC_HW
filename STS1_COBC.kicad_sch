@@ -2311,6 +2311,9 @@
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/cf084761-1e73-42b7-a3c3-d0ebd9b5a891"
       (reference "#PWR081") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/f291a866-2f20-4107-8bdc-99f7df9095f3"
+      (reference "#PWR082") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000602ece6b"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -3342,6 +3345,9 @@
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/5ff6ff63-ac0b-4d8b-8908-ec16e8157fac"
       (reference "R76") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/81c3bc3f-2904-447b-b989-5ab57ec464f4"
+      (reference "R77") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/a487fe78-c7bb-4baf-838d-f5a423189737"
       (reference "TP1") (unit 1) (value "CS") (footprint "STS1library:STS1_Testpoint")
