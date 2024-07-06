@@ -3340,6 +3340,9 @@
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/87b30e80-1ba0-45cc-b102-caf1f4978ba7"
       (reference "R75") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/5ff6ff63-ac0b-4d8b-8908-ec16e8157fac"
+      (reference "R76") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/a487fe78-c7bb-4baf-838d-f5a423189737"
       (reference "TP1") (unit 1) (value "CS") (footprint "STS1library:STS1_Testpoint")
     )
