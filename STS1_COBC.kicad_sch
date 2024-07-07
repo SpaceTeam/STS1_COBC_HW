@@ -2296,6 +2296,9 @@
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/72b9ac34-1eaa-48ad-9d49-1710e8901ce0"
       (reference "#PWR076") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/84f560e8-9e41-456d-855b-05514565ce57/6dbf7922-7bec-49b7-9f6b-fcd539acc3ec"
+      (reference "#PWR077") (unit 1) (value "GND") (footprint "")
+    )
     (path "/f6bcd7c0-6cce-4fe3-9b39-774a553787dc/3fba0d24-c78e-4942-8aaf-8452d6d54d7f"
       (reference "#PWR078") (unit 1) (value "+3V3") (footprint "")
     )
@@ -2909,7 +2912,7 @@
       (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/31441210-3f24-43d3-a4cf-18118195c585"
-      (reference "D3") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D3") (unit 1) (value "PTVS3V3S1UR,115") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/84f560e8-9e41-456d-855b-05514565ce57/fa6ba5bd-134e-4af8-aad5-7ad144ce22a3"
       (reference "D4") (unit 1) (value "AQ1003-01LTG ") (footprint "Diode_SMD:D_SOD-523")
@@ -2969,13 +2972,22 @@
       (reference "D22") (unit 1) (value "BZX84C10") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/4fe92a7d-feb3-434e-b302-891c4870cfbf"
-      (reference "D23") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D23") (unit 1) (value "PTVS3V3S1UR,115") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/c4241f03-9ff3-49a5-8192-12d5681db1e4"
-      (reference "D24") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D24") (unit 1) (value "PTVS5V0S1UR,115 ") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/cdb90a99-6b4d-4161-a084-49e111cde102"
-      (reference "D25") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D25") (unit 1) (value "PTVS5V0S1UR,115") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/e3d83310-f71d-4feb-ad27-45b0af32424e/1c4f086f-e16c-49c6-afd8-6de9a783decb"
+      (reference "D26") (unit 1) (value "PTVS5V0S1UR,115 ") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/84f560e8-9e41-456d-855b-05514565ce57/4ce08df7-16ac-4d8e-9999-8689006ef65d"
+      (reference "D27") (unit 1) (value "PTVS5V0S1UR,115") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/7c61aa55-3846-401c-b2ea-088fc470b137/1c4f086f-e16c-49c6-afd8-6de9a783decb"
+      (reference "D28") (unit 1) (value "PTVS5V0S1UR,115 ") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/5020136b-5eea-4a2f-9bc4-470d670f3f42/ee13059c-4243-43cc-a1cb-962be7eb3ace"
       (reference "FB1") (unit 1) (value "Ferrite_Bead") (footprint "Inductor_SMD:L_0603_1608Metric")
