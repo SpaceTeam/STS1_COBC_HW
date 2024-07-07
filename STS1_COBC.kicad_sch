@@ -2896,6 +2896,12 @@
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/b28bf212-5d42-4b6d-acc4-b31122cdec92"
       (reference "C99") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/e3d83310-f71d-4feb-ad27-45b0af32424e/42d58e99-4830-4d8f-a714-5724e3ee8b0c"
+      (reference "C100") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/7c61aa55-3846-401c-b2ea-088fc470b137/42d58e99-4830-4d8f-a714-5724e3ee8b0c"
+      (reference "C101") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-0000602f576d"
       (reference "CS1") (unit 1) (value "coordinate_system") (footprint "STS_connector:Coordinates")
     )
@@ -3242,7 +3248,7 @@
       (reference "R41") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/e3d83310-f71d-4feb-ad27-45b0af32424e/de6c9157-e554-48d4-9d63-ee0491bb5496"
-      (reference "R42") (unit 1) (value "27k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R42") (unit 1) (value "6.8k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/e3d83310-f71d-4feb-ad27-45b0af32424e/92379693-78d9-4962-b765-1ac7d590a33a"
       (reference "R43") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -3296,7 +3302,7 @@
       (reference "R59") (unit 1) (value "470k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/7c61aa55-3846-401c-b2ea-088fc470b137/de6c9157-e554-48d4-9d63-ee0491bb5496"
-      (reference "R60") (unit 1) (value "27k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R60") (unit 1) (value "6.8k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/7c61aa55-3846-401c-b2ea-088fc470b137/92379693-78d9-4962-b765-1ac7d590a33a"
       (reference "R61") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
