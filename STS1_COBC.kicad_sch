@@ -2633,10 +2633,10 @@
       (reference "C12") (unit 1) (value "47u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-0000612d8e7e"
-      (reference "C13") (unit 1) (value "20p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C13") (unit 1) (value "13p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-0000612d97c8"
-      (reference "C14") (unit 1) (value "20p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C14") (unit 1) (value "13p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/00000000-0000-0000-0000-00006170ee2d"
       (reference "C15") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")

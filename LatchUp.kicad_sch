@@ -1898,7 +1898,7 @@
   (symbol (lib_id "Device:C") (at 88.9 91.44 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 42d58e99-4830-4d8f-a714-5724e3ee8b0c)
-    (property "Reference" "C100" (id 0) (at 90.17 93.98 0)
+    (property "Reference" "C101" (id 0) (at 90.17 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n" (id 1) (at 90.17 88.9 0)
