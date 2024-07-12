@@ -1837,7 +1837,7 @@
   (symbol (lib_id "Device:D_Zener") (at 251.46 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1c4f086f-e16c-49c6-afd8-6de9a783decb)
-    (property "Reference" "D26" (id 0) (at 254 105.4099 90)
+    (property "Reference" "D28" (id 0) (at 254 105.4099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PTVS5V0S1UR,115 " (id 1) (at 254 107.9499 90)

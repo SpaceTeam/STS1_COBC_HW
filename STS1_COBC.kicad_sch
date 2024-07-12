@@ -3361,6 +3361,30 @@
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/81c3bc3f-2904-447b-b989-5ab57ec464f4"
       (reference "R77") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/a8678e8a-595e-4c52-9d87-4220609965c5/a08ebcbd-cef4-4a4c-aef8-bc8c681bb463"
+      (reference "R78") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/a8678e8a-595e-4c52-9d87-4220609965c5/3785758d-a3a9-4e31-83a3-a0aea0696312"
+      (reference "R79") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/a8678e8a-595e-4c52-9d87-4220609965c5/e7a0fef5-7281-4569-9002-000ac63875ca"
+      (reference "R80") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/a8678e8a-595e-4c52-9d87-4220609965c5/86415291-5d35-4991-b87a-387e50b3a8e7"
+      (reference "R81") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/f5b112c9-db6d-4421-8458-9a1b5243902a"
+      (reference "R82") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/7c4305b8-8c7e-4445-9958-ef0d64f6fb69"
+      (reference "R83") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/0c10ca32-639a-4655-9ab9-00be6d050acd"
+      (reference "R84") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/e678329a-a1fe-4c89-89d5-36c0a0308e5b"
+      (reference "R85") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/a487fe78-c7bb-4baf-838d-f5a423189737"
       (reference "TP1") (unit 1) (value "CS") (footprint "STS1library:STS1_Testpoint")
     )
@@ -3384,15 +3408,6 @@
     )
     (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/0857d13f-5321-40cd-b835-a1fb2852f50a"
       (reference "TP8") (unit 1) (value "MOSI") (footprint "STS1library:STS1_Testpoint")
-    )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/7438805a-522f-4aa3-80a7-e31fb1bc70fd"
-      (reference "TP9") (unit 1) (value "MISO") (footprint "STS1library:STS1_Testpoint")
-    )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/e7695b39-8200-4eaa-84bb-5fd7977e0e05"
-      (reference "TP10") (unit 1) (value "MOSI") (footprint "STS1library:STS1_Testpoint")
-    )
-    (path "/be3cc363-80eb-4df5-9a1b-912085b5cf84/eb1af013-e0af-4b4c-a355-9109c04754b9"
-      (reference "TP11") (unit 1) (value "CLK") (footprint "STS1library:STS1_Testpoint")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/e8852e08-4f1f-4bd2-b40d-a3037f7c695c"
       (reference "TP12") (unit 1) (value "3V3_RF") (footprint "STS1library:STS1_Testpoint")
