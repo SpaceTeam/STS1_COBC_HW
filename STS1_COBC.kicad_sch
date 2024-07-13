@@ -2888,7 +2888,7 @@
       (reference "C94") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/84f560e8-9e41-456d-855b-05514565ce57/eebc1e63-bbf4-4b73-8c81-afd3e3fcc4d3"
-      (reference "C95") (unit 1) (value "47n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C95") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/a46d312b-dd2f-4abc-96c6-0d07e3b62af2/dcded66c-1ead-4b41-a554-9f48f1546549"
       (reference "C96") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
