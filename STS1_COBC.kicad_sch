@@ -3533,7 +3533,7 @@
       (reference "U10") (unit 1) (value "TQP3M9036") (footprint "lsf-kicad-lib:DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.6mm_ThermalVias")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/01cccb49-3ab4-4027-a1bf-8a25490c9429"
-      (reference "U11") (unit 1) (value "NL17SV04XV5T2G") (footprint "Package_TO_SOT_SMD:SOT-553")
+      (reference "U11") (unit 1) (value "74LVC1G14Z-7") (footprint "Package_TO_SOT_SMD:SOT-553")
     )
     (path "/a8678e8a-595e-4c52-9d87-4220609965c5/5020136b-5eea-4a2f-9bc4-470d670f3f42/311c6308-44a6-4466-81ae-b56d529d79b9"
       (reference "U12") (unit 1) (value "TPS22950_Q1") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
