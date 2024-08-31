@@ -4356,7 +4356,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 199.39 82.55 270) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 77fee683-ecd8-471c-80da-985bfde98948)
     (property "Reference" "R71" (id 0) (at 198.12 80.01 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4441,7 +4441,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 167.64 25.4 180) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 8571c71d-75f4-4e6a-88cd-50edbeed7bfb)
     (property "Reference" "R70" (id 0) (at 172.847 24.257 0)
       (effects (font (size 1.27 1.27)) (justify left))
