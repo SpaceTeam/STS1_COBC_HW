@@ -12642,16 +12642,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Voltage Output Temperature Sensors"
 			(at 242.316 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 242.316 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12660,8 +12652,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Output Temperature Sensors"
-			(at 242.316 63.754 0)
+		(property "MF" "Analog Devices"
+			(at 242.316 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13303,7 +13295,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "470"
 			(at 119.38 36.83 0)
 			(effects
 				(font
@@ -13338,7 +13330,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4343266"
+		(property "JLCPCB Part #" "C169259"
 			(at 119.38 33.02 0)
 			(effects
 				(font
@@ -13347,7 +13339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-H3EF4701V"
+		(property "Manufacturer_Part_Number" "ERJ-3EKF4700V"
 			(at 119.38 33.02 0)
 			(effects
 				(font

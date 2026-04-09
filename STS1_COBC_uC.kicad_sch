@@ -11364,12 +11364,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pwr Sply Func,Voltage Supervisor,SOT-23,VS 1 to 5.5V,IS 45uA,VO -0.6 to +6.5V | Microchip Technology Inc. MCP130T-300I/TT"
 			(at 29.718 179.451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "MF" "Microchip"
@@ -11384,16 +11386,6 @@
 		)
 		(property "RS_Components_7386465_Purchase_URL" "https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/voltage-supervisors/7386465//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-7386465/?unipart_id=12200&manufacturer=Microchip&part_name=MCP130T-300I/TT&search_term= mcp130t-300i/tt"
 			(at 29.718 204.851 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pwr Sply Func,Voltage Supervisor,SOT-23,VS 1 to 5.5V,IS 45uA,VO -0.6 to +6.5V | Microchip Technology Inc. MCP130T-300I/TT"
-			(at 29.718 179.451 0)
 			(effects
 				(font
 					(size 1.27 1.27)

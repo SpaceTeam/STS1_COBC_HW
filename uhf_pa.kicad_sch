@@ -3579,12 +3579,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 120.65 48.26 0)
+		(property "Description" "Power Switch ICs - Power Distribution Automotive 5.5-V, 2.7-A, 34-mO load switch with adjustable current limit"
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Mnf." "Texas Instrument"
@@ -3621,16 +3623,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Switch ICs - Power Distribution Automotive 5.5-V, 2.7-A, 34-mO load switch with adjustable current limit"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
