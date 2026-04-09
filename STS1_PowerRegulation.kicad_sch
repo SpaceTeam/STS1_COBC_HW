@@ -5634,7 +5634,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "1M"
 			(at 106.68 28.956 90)
 			(effects
 				(font
@@ -5668,7 +5668,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C4285297"
+		(property "JLCPCB Part #" ""
 			(at 106.68 33.02 0)
 			(effects
 				(font
@@ -5677,7 +5677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-H3EF5102V"
+		(property "Manufacturer_Part_Number" "MR06X1004FTL "
 			(at 106.68 33.02 0)
 			(effects
 				(font
