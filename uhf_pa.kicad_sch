@@ -4079,7 +4079,7 @@
 				)
 			)
 		)
-		(property "Value" "24p"
+		(property "Value" "33p"
 			(at 189.23 123.4948 90)
 			(effects
 				(font
@@ -4113,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Mnf." "AVX"
+		(property "JLCPCB Part #" "C70465"
 			(at 189.23 127 0)
 			(effects
 				(font
@@ -4122,25 +4122,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "04025U240FAT2A"
-			(at 189.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C3833393"
-			(at 189.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UMK105CG240JV-F"
+		(property "Manufacturer_Part_Number" "CL05C330JB5NNNC"
 			(at 189.23 127 0)
 			(effects
 				(font
@@ -5749,7 +5731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2n"
+		(property "Value" "5.6n"
 			(at 196.7992 133.223 0)
 			(effects
 				(font
@@ -5784,7 +5766,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "LQW15AN8N2H00D"
+		(property "PartNumber" "LQW15AN5N6C1ZD"
 			(at 195.58 132.08 0)
 			(effects
 				(font
@@ -5793,7 +5775,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C341788"
+		(property "JLCPCB Part #" ""
 			(at 195.58 132.08 0)
 			(effects
 				(font
@@ -5802,7 +5784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LQW15AN8N2H00D "
+		(property "Manufacturer_Part_Number" "LQW15AN5N6C1ZD"
 			(at 195.58 132.08 0)
 			(effects
 				(font
