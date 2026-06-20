@@ -21,3 +21,4 @@ fp-info-cache
 Gerber
 SWD-Adapter/Gerbers
 *.lck
+.history
