@@ -1746,17 +1746,6 @@
 		)
 		(uuid "64550fd7-eb96-4491-8977-72d67a71384a")
 	)
-	(text "DNP"
-		(exclude_from_sim no)
-		(at 31.75 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e1c4f2f-1b6f-4c49-8415-6df837543975")
-	)
 	(text "A=B=0 => 8192 counts"
 		(exclude_from_sim no)
 		(at 48.26 87.63 0)
@@ -1908,16 +1897,6 @@
 		)
 		(uuid "048e8553-e4ea-419f-8d75-575ec9815cfc")
 	)
-	(polyline
-		(pts
-			(xy 29.21 80.01) (xy 29.21 86.36)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "0585ed1d-2501-43aa-acf8-da2a3f8e498a")
-	)
 	(wire
 		(pts
 			(xy 43.18 77.47) (xy 43.18 82.55)
@@ -1977,16 +1956,6 @@
 			(type default)
 		)
 		(uuid "1defabe2-7ef2-4224-9b8b-3a27134419df")
-	)
-	(polyline
-		(pts
-			(xy 29.21 86.36) (xy 40.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "204f4084-0c2a-49a5-aa6b-a77cb84c396c")
 	)
 	(wire
 		(pts
@@ -2078,16 +2047,6 @@
 		)
 		(uuid "3ff84d1d-eed2-4ca9-972c-952b9201923d")
 	)
-	(polyline
-		(pts
-			(xy 29.21 80.01) (xy 40.64 80.01)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "48947fbc-ec5d-42d8-ae2f-982b1beb15fd")
-	)
 	(wire
 		(pts
 			(xy 83.82 74.93) (xy 88.9 74.93)
@@ -2107,16 +2066,6 @@
 			(type default)
 		)
 		(uuid "49ce1135-1be4-4a61-a011-8a17762c6b42")
-	)
-	(polyline
-		(pts
-			(xy 40.64 86.36) (xy 40.64 80.01)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "4c45c94f-095e-47b1-aa0d-0f5e36764045")
 	)
 	(wire
 		(pts
@@ -3226,7 +3175,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "340a5139-3e4e-441e-8a3b-73a26246a3ed")
 		(property "Reference" "R111"
 			(at 35.56 82.55 90)

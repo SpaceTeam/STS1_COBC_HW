@@ -3251,28 +3251,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DNP"
-		(exclude_from_sim no)
-		(at 235.458 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1889971f-98be-493f-bce4-4e40433c9061")
-	)
-	(text "DNP"
-		(exclude_from_sim no)
-		(at 217.17 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aad50658-8d58-4321-86b5-33f2e47e65a1")
-	)
 	(text "The following schematics is comming from the thesis\n\"Project solutions for low-cost space missions\" by Stefano Speretta\nhttps://zerorobotics.polito.it/app/uploads/2019/04/thesis-1.pdf"
 		(exclude_from_sim no)
 		(at 177.038 164.084 0)
@@ -3744,16 +3722,6 @@
 		)
 		(uuid "38c47dba-eeea-46b6-88ce-7380a56d254e")
 	)
-	(polyline
-		(pts
-			(xy 229.87 97.79) (xy 240.03 97.79)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "39b042f7-a252-4a32-838f-06828800c902")
-	)
 	(wire
 		(pts
 			(xy 30.48 50.8) (xy 66.04 50.8)
@@ -3763,16 +3731,6 @@
 			(type default)
 		)
 		(uuid "3c01c6f8-4683-43fb-bc87-179c9662aac9")
-	)
-	(polyline
-		(pts
-			(xy 229.87 106.68) (xy 240.03 106.68)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "3c4ded1f-d9f5-4bf5-977e-658cc5734218")
 	)
 	(wire
 		(pts
@@ -3974,16 +3932,6 @@
 		)
 		(uuid "6a82c85a-5a7b-4092-b74b-193a79e23415")
 	)
-	(polyline
-		(pts
-			(xy 212.09 95.25) (xy 212.09 104.14)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "6aacc93f-1a97-400a-89bf-e7653c710f76")
-	)
 	(wire
 		(pts
 			(xy 214.63 91.44) (xy 205.74 91.44)
@@ -3993,16 +3941,6 @@
 			(type default)
 		)
 		(uuid "6ab1ce79-bb1e-46b3-972c-9650462cee04")
-	)
-	(polyline
-		(pts
-			(xy 212.09 95.25) (xy 224.79 95.25)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "6af21ce0-2ebb-4da2-9885-3af8fa87a0da")
 	)
 	(wire
 		(pts
@@ -4083,16 +4021,6 @@
 			(type default)
 		)
 		(uuid "883207ed-dbe5-4904-b255-ad4e5a04d45c")
-	)
-	(polyline
-		(pts
-			(xy 229.87 97.79) (xy 229.87 106.68)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "89199ed5-47bf-4599-a3c7-bb8132151a60")
 	)
 	(wire
 		(pts
@@ -4233,16 +4161,6 @@
 			(type default)
 		)
 		(uuid "a97b96c2-fea2-4701-a53c-f801328a7cbc")
-	)
-	(polyline
-		(pts
-			(xy 224.79 104.14) (xy 224.79 95.25)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "a9b8dcb8-ee28-4c69-bcee-4b92d8c2306f")
 	)
 	(wire
 		(pts
@@ -4423,26 +4341,6 @@
 			(type default)
 		)
 		(uuid "ce39bc93-a9e5-4eca-a186-19980929429d")
-	)
-	(polyline
-		(pts
-			(xy 212.09 104.14) (xy 224.79 104.14)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d1269b9c-18e4-462a-ab23-ee3c624c9fce")
-	)
-	(polyline
-		(pts
-			(xy 240.03 106.68) (xy 240.03 97.79)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d2ae2cf4-d8e0-4dd1-9cb4-92b1cc160522")
 	)
 	(wire
 		(pts
@@ -7146,7 +7044,7 @@
 		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a6f179bf-9837-4d8f-a2be-d90989055b72")
 		(property "Reference" "R50"
@@ -8192,7 +8090,7 @@
 		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f63f0da9-ba36-45fe-8ff3-3834520e6f0c")
 		(property "Reference" "D13"

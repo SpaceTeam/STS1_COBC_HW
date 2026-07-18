@@ -42874,7 +42874,7 @@
 			(uuid "5beb3fe3-faa0-45af-9e82-71e5b14ba8e3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.4x2.1mm_P0.5mm.wrl"
+		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
