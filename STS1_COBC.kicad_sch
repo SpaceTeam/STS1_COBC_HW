@@ -1095,16 +1095,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 119.38) (xy 59.69 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13f0a8f4-be31-481b-b9e1-1113dbe7ccd5")
-	)
-	(wire
-		(pts
 			(xy 187.96 31.75) (xy 204.47 31.75)
 		)
 		(stroke
@@ -1825,6 +1815,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 119.38) (xy 59.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8cfb74-f42d-4864-a480-23aa698fb790")
+	)
+	(wire
+		(pts
 			(xy 187.96 59.69) (xy 204.47 59.69)
 		)
 		(stroke
@@ -1925,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 121.92) (xy 66.802 121.92)
+			(xy 57.15 121.92) (xy 68.58 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.802 121.92) (xy 66.802 116.84)
+			(xy 68.58 121.92) (xy 68.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1992,6 +1992,16 @@
 			(type default)
 		)
 		(uuid "baa3f7af-bd44-4b1f-8efd-00d1aed73eca")
+	)
+	(wire
+		(pts
+			(xy 57.15 119.38) (xy 59.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baeb027b-82d5-4e26-a6de-8d27931444a6")
 	)
 	(wire
 		(pts
@@ -2202,16 +2212,6 @@
 			(type default)
 		)
 		(uuid "e85a0c1e-76d5-4fae-ae86-a7e992c31ee8")
-	)
-	(wire
-		(pts
-			(xy 57.15 119.38) (xy 59.69 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d486d2-6357-468d-b515-c1b9cd90b7ef")
 	)
 	(bus
 		(pts
@@ -4452,8 +4452,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2104678f-8bc3-40dd-97dd-f368530bfccb")
-		(property "Reference" "#PWR020"
+		(fields_autoplaced yes)
+		(uuid "57953631-b4f9-4e4e-bb71-43932fa8deb1")
+		(property "Reference" "#PWR058"
 			(at 63.5 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4465,7 +4466,7 @@
 			)
 		)
 		(property "Value" "+3.3VP"
-			(at 59.69 112.268 0)
+			(at 59.69 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4507,12 +4508,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc829827-0973-4834-be56-96a4ea7607a3")
+			(uuid "a6da5d6e-a81d-4ed3-bf84-a57fd6d7f67f")
 		)
 		(instances
 			(project "STS1_COBC"
 				(path "/64b52a43-fca3-452c-8290-4396e47a8ab3"
-					(reference "#PWR020")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4597,7 +4598,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 66.802 116.84 0)
+		(at 68.58 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4606,9 +4607,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b85c2a8b-5819-4646-913d-d1fdf7eee556")
-		(property "Reference" "#PWR0118"
-			(at 66.802 120.65 0)
+		(uuid "958b73f8-ddae-4f29-8aff-d014e1b5b967")
+		(property "Reference" "#PWR0178"
+			(at 68.58 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +4620,7 @@
 			)
 		)
 		(property "Value" "+5VP"
-			(at 66.802 112.268 0)
+			(at 68.58 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4629,7 +4630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.802 116.84 0)
+			(at 68.58 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4640,7 +4641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.802 116.84 0)
+			(at 68.58 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4652,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.802 116.84 0)
+			(at 68.58 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4661,12 +4662,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5d4a45d-62a0-44ce-9fb5-ad61d5d528f1")
+			(uuid "f93b9370-7f1a-4f04-abc9-bcd5b4821dd3")
 		)
 		(instances
 			(project "STS1_COBC"
 				(path "/64b52a43-fca3-452c-8290-4396e47a8ab3"
-					(reference "#PWR0118")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -5823,7 +5824,7 @@
 		(instances
 			(project "STS1_COBC"
 				(path "/64b52a43-fca3-452c-8290-4396e47a8ab3"
-					(page "9")
+					(page "5")
 				)
 			)
 		)

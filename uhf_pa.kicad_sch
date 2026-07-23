@@ -3280,7 +3280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 175.26 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3312,7 +3312,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "LQW15AN18NJ80D"
+		(property "PartNumber" "LQW2BAN18NG00L"
 			(at 175.26 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3323,7 +3323,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C344018"
+		(property "JLCPCB Part #" "C2042168"
 			(at 175.26 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3334,7 +3334,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LQW15AN18NJ80D "
+		(property "Manufacturer_Part_Number" "LQW2BAN18NG00L"
 			(at 175.26 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5608,7 +5608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 158.75 147.32 0)
 			(hide yes)
 			(show_name no)
