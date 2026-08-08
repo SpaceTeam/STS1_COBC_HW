@@ -4105,7 +4105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STS_connector:Coordinates"
+		(property "Footprint" "cubesatFunkmodul:Coordinates"
 			(at 81.28 20.32 0)
 			(hide yes)
 			(show_name no)
